@@ -25,6 +25,38 @@ module.exports = function () {
 				type: String,
 				required: true,
 			},
+			role: {
+				type: String,
+				required: true,
+			},
+			email_verified: {
+				type: Boolean,
+				required: true,
+			},
+			issuer_verified: {
+				type: Boolean,
+				required: true,
+			},
+			investor_verified: {
+				type: Boolean,
+				required: true,
+			},
+			tester_verified: {
+				type: Boolean,
+				required: true,
+			},
+			status: {
+				type: String,
+				required: true,
+			},
+			public_key: {
+				type: String,
+				required: true,
+			},
+			secret_key: {
+				type: Object,
+				required: true,
+			}
 		},
 		{ timestamps: true }
 	);

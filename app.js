@@ -1,27 +1,28 @@
 /* Import Server Modules */
-const connectDB = require("./config/database");
 const express = require("express");
+const helmet = require("helmet");
 const cors = require("cors");
 
-connectDB();
-
 /* Import Configurations */
-const ENV = require("./config/environments");
-const CORS = require("./config/cors");
+const db_setup = require("./config/mongodb");
+const env_setup = require("./config/environments");
+const cors_setup = require("./config/cors");
 
-/* Setup Server */
+/* Setup Database */
+db_setup();
+
+/* Setup Express Application */
 const app = express();
-
-app.use(cors(CORS.Options));
-
+app.use(helmet());
+app.use(cors(cors_setup.Options));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 /* Routes: Web, API */
-require("./app/models")(app);
-require("./app/controllers")(app);
-require("./app/routes")(app);
+app.get("/", (req, res) => { res.status(200).send("Hello World!"); });
+require("./app/models/__i.js")(app);
+require("./app/middlewares/__i.js")(app);
+require("./app/controllers/__i.js")(app);
+require("./app/routes/__i.js")(app);
 
-app.listen(ENV.PORT, () => {
-	console.log(`${ENV.NAME} SERVER RUNNING [ ${ENV.BASE}:${ENV.PORT} ]`);
-});
+module.exports = app;

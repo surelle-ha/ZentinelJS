@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-NAME = process.env.SERVER_NAME || "NodeJS";
+NAME = process.env.SERVER_NAME || "ZentinelJS";
 
 VERSION = process.env.SERVER_VER || "v1.0.0";
 

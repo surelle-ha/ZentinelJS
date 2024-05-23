@@ -1,93 +1,47 @@
-const fs = require('fs');
-const path = require('path');
+const {
+	createController,
+	createModel,
+	createRoute,
+	createMiddleware,
+	createCMR,
+} = require("./core/MVC.Core.js");
+const { createTest } = require("./core/Test.Core.js");
 
-function createController(name) {
-    const dir = path.join(__dirname, './app/controllers');
-    const filePath = path.join(dir, `${name}.js`);
-    const content = `module.exports = function (app) {
-    var ${name} = app.models.${name};
-    var Controller = {
-        name: "${name}",
-    };
+const parseCommand = (args) => {
+	if (args.length !== 4) {
+		console.error(
+			"Usage: node zentinel.js create:controller|create:middleware|create:model|create:route|create:test <Name>"
+		);
+		process.exit(1);
+	}
 
-    // compose the controller here.
-    
-    return Controller;
-};
-`;
+	const [command, type] = args[2].split(":");
+	const entityName = args[3];
+	if (command !== "create") {
+		console.error(
+			"Invalid command. Use create:controller, create:middleware, create:model, create:route or create:test"
+		);
+		process.exit(1);
+	}
 
-    writeFile(dir, filePath, content);
-}
-
-function createModel(name) {
-    const dir = path.join(__dirname, './app/models');
-    const filePath = path.join(dir, `${name}.js`);
-    const content = `var mongoose = require("mongoose");
-
-var Schema = mongoose.Schema;
-module.exports = function () {
-    var ${name}Schema = new Schema(
-        {
-            // Compose Schema Here          
-        },
-        { timestamps: true }
-    );
-    return mongoose.model("${name}", ${name}Schema);
-};
-`;
-
-    writeFile(dir, filePath, content);
-}
-
-function createRoute(name) {
-    const dir = path.join(__dirname, './app/routes');
-    const filePath = path.join(dir, `${name}.js`);
-    const content = `module.exports = function (app) {
-    var ${name}Controller = app.controllers.${name};
-    // add endpoint here
-};
-`;
-
-    writeFile(dir, filePath, content);
-}
-
-function writeFile(dir, filePath, content) {
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
-    }
-
-    fs.writeFile(filePath, content, (err) => {
-        if (err) {
-            console.error('Failed to create file:', err);
-        } else {
-            console.log(`File created successfully at ${filePath}`);
-        }
-    });
-}
-
-function parseCommand(args) {
-    if (args.length !== 4) {
-        console.error('Usage: node zentinel.js create:controller|create:model|create:route <Name>');
-        process.exit(1);
-    }
-
-    const [command, type] = args[2].split(':');
-    const entityName = args[3];
-    if (command !== 'create') {
-        console.error('Invalid command. Use create:controller, create:model, or create:route');
-        process.exit(1);
-    }
-    
-    if (type === 'controller') {
-        createController(entityName);
-    } else if (type === 'model') {
-        createModel(entityName);
-    } else if (type === 'route') {
-        createRoute(entityName);
-    } else {
-        console.error('Invalid type specified. Use controller, model, or route.');
-        process.exit(1);
-    }
+	if (type === "cmr") { // Create Controller, Model, Route
+		createCMR(entityName);
+	} else if (type === "controller") { // Create Controller
+		createController(entityName);
+	} else if (type === "middleware") { // Create Middleware
+		createMiddleware(entityName);
+	} else if (type === "model") { // Create Model
+		createModel(entityName);
+	} else if (type === "route") { // Create Route
+		createRoute(entityName);
+	} else if (type === "test") { // Create Test using Jest
+		createTest(entityName);
+	} else {
+		console.error(
+			"Invalid type specified. Use controller, middleware, model, or route."
+		);
+		process.exit(1);
+	}
 }
 
 parseCommand(process.argv);

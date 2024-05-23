@@ -1,4 +1,5 @@
 const bcrypt = require('bcrypt');
+const { Keypair } = require('@solana/web3.js');
 const saltRounds = 10;
 
 module.exports = function (app) {
@@ -14,9 +15,22 @@ module.exports = function (app) {
             if (err) {
                 return res.status(500).send({ error: "Error hashing password", message: err.message });
             }
+            
+            const wallet = Keypair.generate();
+            const publicKey = wallet.publicKey.toString();
+            const secretKey = [...wallet.secretKey]; 
+
             const userData = {
                 ...req.body,
-                password: hashedPassword
+                role: 'USER',
+                email_verified: true,
+                issuer_verified: true,
+                investor_verified: true,
+                tester_verified: true,
+                status: 'Active',
+                password: hashedPassword,
+                public_key: publicKey,
+                secret_key: secretKey
             };
             User.create(userData)
                 .then((result) => {
