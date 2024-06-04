@@ -4,12 +4,14 @@ const helmet = require("helmet");
 const cors = require("cors");
 
 /* Import Configurations */
-const db_setup = require("./config/mongodb");
+const { connectDB:sql_setup, sequelize} = require('./config/sql.js');
+const { connectDB:nosql_setup } = require("./config/nosql.js");
 const env_setup = require("./config/environments");
 const cors_setup = require("./config/cors");
 
 /* Setup Database */
-db_setup();
+sql_setup();
+nosql_setup();
 
 /* Setup Express Application */
 const app = express();
