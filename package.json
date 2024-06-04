@@ -5,7 +5,8 @@
 	"main": "server.js",
 	"scripts": {
 		"test": "jest --watch",
-		"serve": "nodemon server.js"
+		"dev": "set SERVER_ENV=development&& nodemon server.js",
+		"prod": "set SERVER_ENV=production&& nodemon server.js"
 	},
 	"jest": {
 		"testEnvironment": "node"
@@ -29,11 +30,14 @@
 		"jest-mock": "^29.7.0",
 		"jsonwebtoken": "^9.0.2",
 		"ky": "^1.2.4",
+		"mariadb": "^3.3.0",
 		"module-alias": "^2.2.3",
 		"mongoose": "^8.3.4",
+		"mysql2": "^3.9.7",
 		"node-mocks-http": "^1.14.1",
 		"nodemon": "^3.1.0",
 		"pm2": "^5.3.1",
+		"sequelize": "^6.37.3",
 		"sriracha": "^1.0.0"
 	},
 	"devDependencies": {

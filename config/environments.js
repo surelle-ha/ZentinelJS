@@ -12,6 +12,17 @@ ENVIRONMENT = process.env.SERVER_ENV || "local";
 
 MONGODB = process.env.MONGODB_URL || "";
 
+DATABASE_HOST = process.env.DATABASE_HOST || "localhost";
+
+DATABASE_NAME = process.env.DATABASE_NAME || "zentinel";
+
+DATABASE_USER = process.env.DATABASE_USER || "root";
+
+DATABASE_PASS = process.env.DATABASE_PASS || "";
+
+DATABASE_TYPE = process.env.DATABASE_TYPE || "mysql";
+
+
 module.exports = {
 	NAME,
 	VERSION,
@@ -19,4 +30,9 @@ module.exports = {
 	PORT,
 	ENVIRONMENT,
 	MONGODB,
+	DATABASE_HOST,
+	DATABASE_NAME,
+	DATABASE_USER,
+	DATABASE_PASS,
+	DATABASE_TYPE
 };

@@ -1,13 +1,17 @@
-const { composer } = require("./utilities/composer.js")
+const { composer } = require("./utilities/fileComposer.js");
+require("./utilities/stringExtension.js");
+
 const path = require("path");
 
-function createCMR(name) {
+function createCMR(raw_name) {
+	const name = raw_name.capitalize();
 	createController(name);
 	createModel(name);
 	createRoute(name);
 }
 
-function createController(name) {
+function createController(raw_name) {
+	const name = raw_name.capitalize();
 	const dir = path.join(__dirname, "../app/controllers");
 	const filePath = path.join(dir, `${name}.Controller.js`);
 	const content = `module.exports = function (app) {
@@ -25,7 +29,8 @@ function createController(name) {
 	composer(dir, filePath, content);
 }
 
-function createMiddleware(name) {
+function createMiddleware(raw_name) {
+	const name = raw_name.capitalize();
 	const dir = path.join(__dirname, "../app/middlewares");
 	const filePath = path.join(dir, `${name}.Middleware.js`);
 	const content = `module.exports = function (app) {
@@ -42,7 +47,8 @@ function createMiddleware(name) {
 	composer(dir, filePath, content);
 }
 
-function createModel(name) {
+function createModel(raw_name) {
+	const name = raw_name.capitalize();
 	const dir = path.join(__dirname, "../app/models");
 	const filePath = path.join(dir, `${name}.Model.js`);
 	const content = `var mongoose = require("mongoose");
@@ -62,7 +68,8 @@ module.exports = function () {
 	composer(dir, filePath, content);
 }
 
-function createRoute(name) {
+function createRoute(raw_name) {
+	const name = raw_name.capitalize();
 	const dir = path.join(__dirname, "../app/routes/v1");
 	const filePath = path.join(dir, `${name}.Route.js`);
 	const content = `module.exports = function (app) {

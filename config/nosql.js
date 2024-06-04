@@ -4,10 +4,10 @@ const ENV = require("./environments");
 const connectDB = async () => {
 	try {
 		await mongoose.connect(ENV.MONGODB);
-		console.log(`[ARDEUS] MongoDB connected`);
+		console.log(`[NOSQL] MongoDB Connected`);
 	} catch (err) {
-		console.log(`[ARDEUS] Connection error`, err);
+		console.log(`[NOSQL] MongoDB Connection Error`, err);
 	}
 };
 
-module.exports = connectDB;
+module.exports = { connectDB };

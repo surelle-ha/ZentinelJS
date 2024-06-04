@@ -1,7 +1,10 @@
-const { composer } = require("./utilities/composer.js")
+const { composer } = require("./utilities/fileComposer.js");
+require("./utilities/stringExtension.js");
+
 const path = require("path");
 
-function createTest(name) {
+function createTest(raw_name) {
+    const name = raw_name.capitalize();
 	const dir = path.join(__dirname, "../tests");
 	const filePath = path.join(dir, `${name}.test.js`);
 	const content = `const request = require('supertest');
