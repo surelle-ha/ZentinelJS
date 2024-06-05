@@ -1,0 +1,84 @@
+"use strict";
+
+/** @type {import('sequelize-cli').Migration} */
+module.exports = {
+	async up(queryInterface, Sequelize) {
+		await queryInterface.createTable("Users", {
+			id: {
+				allowNull: false,
+				autoIncrement: true,
+				primaryKey: true,
+				type: Sequelize.INTEGER,
+			},
+			first_name: {
+				type: Sequelize.STRING,
+				allowNull: false,
+			},
+			middle_name: {
+				type: Sequelize.STRING,
+				allowNull: false,
+			},
+			last_name: {
+				type: Sequelize.STRING,
+				allowNull: false,
+			},
+			email: {
+				type: Sequelize.STRING,
+				allowNull: false,
+				unique: true,
+			},
+			password: {
+				type: Sequelize.STRING,
+				allowNull: false,
+			},
+			role_id: {
+				type: Sequelize.INTEGER,
+				allowNull: false,
+			},
+			email_verified: {
+				type: Sequelize.BOOLEAN,
+				allowNull: false,
+			},
+			issuer_verified: {
+				type: Sequelize.BOOLEAN,
+				allowNull: false,
+			},
+			investor_verified: {
+				type: Sequelize.BOOLEAN,
+				allowNull: false,
+			},
+			tester_verified: {
+				type: Sequelize.BOOLEAN,
+				allowNull: false,
+			},
+			status: {
+				type: Sequelize.STRING,
+				allowNull: false,
+			},
+			public_key: {
+				type: Sequelize.STRING,
+				allowNull: false,
+			},
+			secret_key: {
+				type: Sequelize.JSON,
+				allowNull: false,
+			},
+			createdAt: {
+				allowNull: false,
+				type: Sequelize.DATE,
+				defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+			},
+			updatedAt: {
+				allowNull: false,
+				type: Sequelize.DATE,
+				defaultValue: Sequelize.literal(
+					"CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+				),
+			},
+		});
+	},
+
+	async down(queryInterface, Sequelize) {
+		await queryInterface.dropTable("Users");
+	},
+};
