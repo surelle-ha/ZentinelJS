@@ -3,13 +3,13 @@ const { Keypair } = require('@solana/web3.js');
 const saltRounds = 10;
 
 module.exports = function (app) {
-    var User = app.models.User;
+    const User = app.models.User; // Adjusted assuming Sequelize model is already attached to app.models
     var Controller = {
         name: "User",
     };
 
     // Create a new user
-    // @/api/users/create
+    // POST @/api/users
     Controller.createUser = function (req, res) {
         bcrypt.hash(req.body.password, saltRounds, function(err, hashedPassword) {
             if (err) {
@@ -22,7 +22,7 @@ module.exports = function (app) {
 
             const userData = {
                 ...req.body,
-                role: 'USER',
+                role_id: 1,
                 email_verified: true,
                 issuer_verified: true,
                 investor_verified: true,
@@ -34,7 +34,7 @@ module.exports = function (app) {
             };
             User.create(userData)
                 .then((result) => {
-                    res.status(201).send({ message: "Account created", userDate: result });
+                    res.status(201).send({ message: "Account created", userData: result });
                 })
                 .catch((err) => {
                     res.status(500).send({ error: "Server Error", message: err.message });
@@ -43,9 +43,9 @@ module.exports = function (app) {
     };
 
     // Retrieve a single user by id
-    // @/api/users/fetch/:id
+    // GET @/api/users/:id
     Controller.getUser = function (req, res) {
-        User.findById(req.params.id)
+        User.findByPk(req.params.id)
             .then((user) => {
                 if (!user) {
                     return res.status(404).send({ message: "User not found" });
@@ -58,9 +58,9 @@ module.exports = function (app) {
     };
 
     // Retrieve all users
-    // @/api/users/fetch/all
+    // GET @/api/users
     Controller.getAllUsers = function (req, res) {
-        User.find()
+        User.findAll()
             .then((users) => {
                 res.status(200).send(users);
             })
@@ -70,26 +70,34 @@ module.exports = function (app) {
     };
 
     // Update a user
-    // @/api/users/update/:id
+    // PATCH @/api/users/:id
     Controller.updateUser = function (req, res) {
-        User.findByIdAndUpdate(req.params.id, req.body, { new: true })
-            .then((user) => {
-                if (!user) {
-                    return res.status(404).send({ message: "User not found" });
-                }
-                res.status(200).send({ message: "User updated", user: user });
-            })
-            .catch((err) => {
-                res.status(500).send({ error: "Server Error", message: err.message });
-            });
-    };
+        User.update(req.body, { 
+            where: { id: req.params.id }, 
+            returning: true, 
+            plain: true 
+        })
+        .then(result => {
+            const rowsUpdate = result[0];
+            const updatedUser = result[1];
+            
+            if (rowsUpdate === 0) {
+                return res.status(404).send({ message: "User not found" });
+            }
+    
+            res.status(200).send({ message: "User updated", user: updatedUser });
+        })
+        .catch((err) => {
+            res.status(500).send({ error: "Server Error", message: err.message });
+        });
+    };    
 
     // Delete a user
-    // @/api/users/delete/:id
+    // DELETE @/api/users/:id
     Controller.deleteUser = function (req, res) {
-        User.deleteOne({ _id: req.params.id })
-            .then((result) => {
-                if (result.deletedCount === 0) {
+        User.destroy({ where: { id: req.params.id } })
+            .then(deleted => {
+                if (!deleted) {
                     return res.status(404).send({ message: "User not found" });
                 }
                 res.status(200).send({ message: "User deleted" });
@@ -97,12 +105,12 @@ module.exports = function (app) {
             .catch((err) => {
                 res.status(500).send({ error: "Server Error", message: err.message });
             });
-    };    
+    };
 
     // Delete all users
-    // @/api/users/delete/all
+    // DELETE @/api/users
     Controller.deleteAllUsers = function (req, res) {
-        User.deleteMany({})
+        User.destroy({ where: {} })
             .then(() => {
                 res.status(200).send({ message: "All users deleted" });
             })
