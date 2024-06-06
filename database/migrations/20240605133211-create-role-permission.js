@@ -9,10 +9,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      roleId: {
+      role_id: {
         type: Sequelize.INTEGER
       },
-      permissionId: {
+      permission_id: {
         type: Sequelize.INTEGER
       },
       createdAt: {

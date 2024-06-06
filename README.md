@@ -16,6 +16,23 @@ Zentinel.JS is a backend framework / boilerplate built on top of Express.JS, str
 ![NodeJS](https://img.shields.io/badge/Node.JS-black?style=for-the-badge&logo=node.js)
 </div>
 
+## Table of Contents
+- Features
+- Installation
+- Environment Variables
+- Commands
+- Project Structure
+- API Documentation
+- Error Handling
+- Validation
+- Authentication
+- Authorization
+- Logging
+- Rate Limit
+- Socket / Realtime Data
+- Contributing
+
+## Features
 Below are the features of Zentinel.JS:
 - Builtin Authentication using JSON Web Token.
 - Builtin Role-Based Access Control as Authorization.
@@ -26,23 +43,30 @@ Below are the features of Zentinel.JS:
 
 ## Installation
 To install and start developing with Zentinel, follow these steps:
-1. Clone the repository:
+Clone the repository:
 ```bash 
 git clone https://github.com/surelle-ha/zentineljs.git
+cd zentineljs
+npx rimraf ./.git
 ```
-2. Navigate to the directory and install the dependencies using `npm`:
+Navigate to the directory and install the dependencies using `npm`:
 ```bash 
 npm install
 ```
-3. Migrate Database
+Set the environment variables
+```bash
+cp .env.example .env
+# open .env and modify the environment variables (if needed)
+```
+Migrate Database
 ```bash 
 npx sequelize-cli db:migrate
 ```
-4. Seed Default Data
+Seed Default Data
 ```bash 
 npx sequelize-cli db:seed:all
 ```
-5. Start Server
+Start Server
 ```bash
 npm run dev
 ```
