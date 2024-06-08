@@ -21,9 +21,10 @@ app.use(helmet());
 app.use(cors(cors_setup.Options));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
 /* Routes: Web, API */
-app.get("/", (req, res) => { res.status(200).send("Hello World!"); });
+app.get("/", (req, res) => { res.status(200).send("ZentinelJS Served"); });
 require("./app/models/__i.js")(app, sequelize);
 require("./app/middlewares/__i.js")(app);
 require("./app/controllers/__i.js")(app);

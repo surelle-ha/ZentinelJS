@@ -96,6 +96,26 @@ npm run dev
 ```
 
 ## Commands
+Create components using zentinel-cli
+```bash
+zentinel create
+  _____                 _     _                  _
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+
+? Select component type to create (Use arrow keys)
+❯ Controller
+  Model
+  Route
+  Middleware
+  All (Controller, Model, Route)
+```
+Run server 
+```bash
+zentinel [dev/prod]
+```
 Create Seeder File
 ```bash 
 npx sequelize-cli seed:generate --name sample-seeder
