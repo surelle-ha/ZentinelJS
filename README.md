@@ -42,7 +42,31 @@ Below are the features of Zentinel.JS:
 - Interconnected MVC Components
 
 ## Installation
-To install and start developing with Zentinel, follow these steps:
+Installation via CommandLine Interface
+```bash
+npm i zentinel-cli --global
+zentinel init
+
+  _____                 _     _                  _
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+
+? Do you want to initialize a new ZentinelJS project? Yes
+? Please enter the name of the project: TestProject
+✔  Fetched Server Files
+✔  Git directory removed.
+✔  Environment file set up.
+✔  NPM packages installed successfully.
+✔  Project initialized successfully!
+
+cd TestProject
+npx sequelize-cli db:migrate
+npx sequelize-cli db:seed:all
+zentinel dev
+```
+Manual Installation via Github: To install and start developing with Zentinel, follow these steps:
 Clone the repository:
 ```bash 
 git clone https://github.com/surelle-ha/zentineljs.git
@@ -83,7 +107,7 @@ npx sequelize-cli migration:generate --name sample-migration
 
 ## Recently Added
 The Project is constantly being optimized and updated. Here are the new features I recently implemented.
-- Rate Limit - a mechanism used to control the number of requests a server receives within a certain period of time. It helps to prevent abuse, ensure fair usage, and protect the server from being overwhelmed by excessive requests, which could lead to performance degradation or denial of service.
+- [2024/06/06] Rate Limit - a mechanism used to control the number of requests a server receives within a certain period of time. It helps to prevent abuse, ensure fair usage, and protect the server from being overwhelmed by excessive requests, which could lead to performance degradation or denial of service.
 ```js
 /* Default Rate Limit Configuration */
 const RateLimit = rateLimit({
@@ -100,15 +124,29 @@ const RateLimit = rateLimit({
 	legacyHeaders: false, 
 })
 ```
-- Sequelize ORM - Object/Relational Mapping (ORM) framework for Node. js applications. It enables JavaScript developers to work with relational databases, including support for features such as solid transaction support, relations, read replication, and more.
+- [2024/06/06] Sequelize ORM - Object/Relational Mapping (ORM) framework for Node. js applications. It enables JavaScript developers to work with relational databases, including support for features such as solid transaction support, relations, read replication, and more.
+- [2024/06/08] Zentinel CLI is a commandline interface tool to manager and initialize Zentinel Backend Boilerplate/Framework. To learn more about ZentinelJS, visit the repository.
+```bash
+npm i zentinel-cli
+zentinel --help
+zentinel init
+zentinel create
+```
 
 ## Goal Checklist
-<input type="checkbox" checked disabled> Add Rate Limit <br>
-<input type="checkbox" checked disabled> Integrate Mongoose ORM <br>
-<input type="checkbox" checked disabled> Integrate Sequelize ORM <br>
-<input type="checkbox" disabled> Add Socket.io as Native Feature <br>
-<input type="checkbox" disabled> Add Logger Utility <br>
-<input type="checkbox" disabled> Recreate Zentinel CLI <br>
+- [x] Add Rate Limit
+- [x] Integrate Mongoose ORM
+- [x] Integrate Sequelize ORM
+- [ ] Add Socket.io as Native Feature
+- [ ] Add Logger Utility
+- [x] Recreate Zentinel CLI
+- [x] Implement Migration and Seeding
+- [x] Publish `zentinel-cli` to NPM
+- [ ] Add Native Database Visualizer
+- [ ] Launch Documentation Page
+- [ ] Add Cron Job
+- [ ] Add Custom Function
+- [ ] Add Storage Driver Support
 
 ## Developer
 As a developer who constantly seeks to improve my development skills, my goal with Zentinel.JS is to create a powerful yet intuitive backend framework that simplifies the development process for fellow developers. I aim to provide a robust toolset that makes backend operations more efficient and enjoyable, ensuring that developers can focus on building great applications without getting bogged down by repetitive tasks.
