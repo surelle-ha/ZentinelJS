@@ -1,19 +1,31 @@
 const { Model, DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
-  class Role extends Model {}
+	class Role extends Model {}
 
-  Role.init({
-      name: DataTypes.STRING,
-  }, {
-      sequelize,
-      modelName: 'Role',
-  });
+	Role.init(
+		{
+			name: {
+				type: DataTypes.STRING,
+				allowNull: false,
+			},
+		},
+		{
+			sequelize,
+			modelName: "Role",
+			tableName: "Roles", 
+			timestamps: true,
+		}
+	);
 
-  Role.associate = function(models) {
-      Role.hasMany(models.User, { foreignKey: 'role_id' });
-      Role.belongsToMany(models.Permission, { through: 'Role_Permissions' });
-  };
+	Role.associate = function (models) {
+        Role.belongsToMany(models.Permission, {
+            through: 'Role_Permission',
+            as: 'Permissions',
+            foreignKey: 'role_id',
+            otherKey: 'permission_id'
+        });
+    };
 
-  return Role;
+	return Role;
 };

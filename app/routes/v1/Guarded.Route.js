@@ -1,5 +1,5 @@
 module.exports = function (app) {
-	var GuardedController = app.controllers.Guarded;
-    var AuthenticateMiddleware = app.middlewares.Authenticate;
-	app.get("/api/v1/guarded/test", AuthenticateMiddleware.authenticate, GuardedController.protectedEndpoint);
+	const GuardedController = app.controllers.Guarded;
+    const { Authenticate, SequelizeGuard } = app.middlewares;
+	app.get("/api/v1/guarded/test", [Authenticate.authenticate, SequelizeGuard.authorize('basic-authorization')], GuardedController.protectedEndpoint);
 };

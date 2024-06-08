@@ -15,17 +15,14 @@ module.exports = function (app) {
 
             jwt.verify(token, process.env.JWT_SECRET, async (err, decoded) => {
                 if (err) {
-                    if (err.name === "TokenExpiredError") {
-                        return res.status(401).json({ message: "Token expired." });
-                    }
-                    return res.status(401).json({ message: "Authentication Failed: Invalid token." });
+                    return res.status(401).json({ message: "Authentication Failed: Invalid token.", err: err.message });
                 }
 
-                // Check if the token exists in the database and has not expired
+                // Find the session in the database
                 const session = await Session.findOne({
                     where: {
-                        token: token, // Ensuring the token matches
-                        userId: decoded.userId // Ensuring the user ID decoded from the token matches
+                        token: token,
+                        userId: decoded.userId
                     }
                 });
 
@@ -33,12 +30,20 @@ module.exports = function (app) {
                     return res.status(401).json({ message: "No valid session found." });
                 }
 
-                // Check if the session has expired based on the database, even if the JWT has not expired
+                // Check if the session has expired
                 if (session.expiresAt < new Date()) {
-                    return res.status(401).json({ message: "Session has expired." });
+                    // If the session has expired, delete it from the database
+                    await Session.destroy({
+                        where: {
+                            token: token,
+                            userId: decoded.userId
+                        }
+                    });
+                    return res.status(401).json({ message: "Token expired." });
                 }
 
-                req.userData = decoded; // Attach user data to the request for use in next middleware or endpoint
+                // Set the user ID to req for subsequent middleware
+                req.userId = decoded.userId;
                 next();
             });
         } catch (error) {

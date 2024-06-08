@@ -7,8 +7,7 @@ module.exports = {
 			"Roles",
 			[
 				{ name: "Admin", createdAt: new Date(), updatedAt: new Date() },
-				{ name: "Editor", createdAt: new Date(), updatedAt: new Date() },
-				{ name: "Viewer", createdAt: new Date(), updatedAt: new Date() },
+				{ name: "User", createdAt: new Date(), updatedAt: new Date() },
 			],
 			{}
 		);

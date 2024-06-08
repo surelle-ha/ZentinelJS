@@ -1,6 +1,7 @@
 const { Model, DataTypes } = require("sequelize");
 
 module.exports = function (sequelize) {
+
 	class User extends Model {}
 
 	User.init(
@@ -30,38 +31,18 @@ module.exports = function (sequelize) {
 				type: DataTypes.BOOLEAN,
 				allowNull: false,
 			},
-			issuer_verified: {
-				type: DataTypes.BOOLEAN,
-				allowNull: false,
-			},
-			investor_verified: {
-				type: DataTypes.BOOLEAN,
-				allowNull: false,
-			},
-			tester_verified: {
-				type: DataTypes.BOOLEAN,
-				allowNull: false,
-			},
 			status: {
 				type: DataTypes.STRING,
 				allowNull: false,
 			},
-			public_key: {
-				type: DataTypes.STRING,
+			role_id: {
+				type: DataTypes.INTEGER,
 				allowNull: false,
+				references: {
+					model: "Roles", 
+					key: "id",
+				},
 			},
-			secret_key: {
-				type: DataTypes.JSON,
-				allowNull: false,
-			},
-            role_id: {
-                type: DataTypes.INTEGER,
-                allowNull: false,
-                references: {
-                    model: 'Roles', // 'Roles' refers to the table name
-                    key: 'id',
-                },
-            },
 		},
 		{
 			sequelize,
@@ -69,6 +50,13 @@ module.exports = function (sequelize) {
 			timestamps: true,
 		}
 	);
+
+	User.associate = function (models) {
+        User.belongsTo(models.Role, {
+            foreignKey: 'role_id',
+            as: 'Role'
+        });
+    };
 
 	return User;
 };

@@ -39,28 +39,8 @@ module.exports = {
 				type: Sequelize.BOOLEAN,
 				allowNull: false,
 			},
-			issuer_verified: {
-				type: Sequelize.BOOLEAN,
-				allowNull: false,
-			},
-			investor_verified: {
-				type: Sequelize.BOOLEAN,
-				allowNull: false,
-			},
-			tester_verified: {
-				type: Sequelize.BOOLEAN,
-				allowNull: false,
-			},
 			status: {
 				type: Sequelize.STRING,
-				allowNull: false,
-			},
-			public_key: {
-				type: Sequelize.STRING,
-				allowNull: false,
-			},
-			secret_key: {
-				type: Sequelize.JSON,
 				allowNull: false,
 			},
 			createdAt: {

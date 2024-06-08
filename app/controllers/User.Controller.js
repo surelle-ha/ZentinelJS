@@ -1,9 +1,8 @@
 const bcrypt = require('bcrypt');
-const { Keypair } = require('@solana/web3.js');
 const saltRounds = 10;
 
 module.exports = function (app) {
-    const User = app.models.User; // Adjusted assuming Sequelize model is already attached to app.models
+    const { User, Role } = app.models; 
     var Controller = {
         name: "User",
     };
@@ -15,22 +14,13 @@ module.exports = function (app) {
             if (err) {
                 return res.status(500).send({ error: "Error hashing password", message: err.message });
             }
-            
-            const wallet = Keypair.generate();
-            const publicKey = wallet.publicKey.toString();
-            const secretKey = [...wallet.secretKey]; 
 
             const userData = {
                 ...req.body,
                 role_id: 1,
                 email_verified: true,
-                issuer_verified: true,
-                investor_verified: true,
-                tester_verified: true,
                 status: 'Active',
-                password: hashedPassword,
-                public_key: publicKey,
-                secret_key: secretKey
+                password: hashedPassword
             };
             User.create(userData)
                 .then((result) => {
@@ -45,16 +35,25 @@ module.exports = function (app) {
     // Retrieve a single user by id
     // GET @/api/users/:id
     Controller.getUser = function (req, res) {
-        User.findByPk(req.params.id)
-            .then((user) => {
-                if (!user) {
-                    return res.status(404).send({ message: "User not found" });
-                }
-                res.status(200).send(user);
-            })
-            .catch((err) => {
-                res.status(500).send({ error: "Server Error", message: err.message });
-            });
+        User.findByPk(req.params.id, {
+            include: [{
+                model: Role,
+                as: 'Role'
+            }]
+        })
+        .then((user) => {
+            if (!user) {
+                return res.status(404).send({ message: "User not found" });
+            }
+            const userData = user.get({ plain: true });
+            userData.role = userData.Role;  
+            delete userData.Role;  
+            res.status(200).send(userData);
+        })
+        .catch((err) => {
+            console.error(err);
+            res.status(500).send({ error: "Server Error", message: err.message });
+        });
     };
 
     // Retrieve all users

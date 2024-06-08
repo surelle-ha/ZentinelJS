@@ -7,29 +7,35 @@ module.exports = {
 			"Permissions",
 			[
 				{
-					name: "create_article",
-					description: "Create articles",
+					name: "basic-authorization",
+					description: "Default Base Authorization. All users should have this authorization regardless of designation,position or role.",
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: "edit_article",
-					description: "Edit articles",
+					name: "create_user",
+					description: "Create User",
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: "delete_article",
-					description: "Delete articles",
+					name: "delete_user",
+					description: "Delete User",
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
 				{
-					name: "view_article",
-					description: "View articles",
+					name: "update_user",
+					description: "Update User",
 					createdAt: new Date(),
 					updatedAt: new Date(),
 				},
+				{
+					name: "fetch_user",
+					description: "Get User(s)",
+					createdAt: new Date(),
+					updatedAt: new Date(),
+				}
 			],
 			{}
 		);

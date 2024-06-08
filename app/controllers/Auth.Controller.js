@@ -1,7 +1,6 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const { validationResult } = require("express-validator");
-const { Keypair } = require('@solana/web3.js');
 const saltRounds = 10;
 
 module.exports = function (app) {
@@ -89,21 +88,12 @@ module.exports = function (app) {
                         });
                     }
 
-                    const wallet = Keypair.generate();
-                    const publicKey = wallet.publicKey.toString();
-                    const secretKey = [...wallet.secretKey];
-
                     const userData = {
                         ...req.body,
                         role_id: 1,
                         email_verified: true,
-                        issuer_verified: true,
-                        investor_verified: true,
-                        tester_verified: true,
                         status: 'Active',
-                        password: hashedPassword,
-                        public_key: publicKey,
-                        secret_key: secretKey
+                        password: hashedPassword
                     };
                     const result = await User.create(userData);
                     res.status(201).send({
