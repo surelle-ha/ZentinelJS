@@ -25,6 +25,8 @@ app.use(express.static('public'));
 
 /* Routes: Web, API */
 app.get("/", (req, res) => { res.status(200).send("ZentinelJS Served"); });
+require("./app/utilities/__i.js")(app);
+require("./app/services/__i.js")(app);
 require("./app/models/__i.js")(app, sequelize);
 require("./app/middlewares/__i.js")(app);
 require("./app/controllers/__i.js")(app);

@@ -1,5 +1,4 @@
 module.exports = function (app) {
-    var Guarded = app.models.Guarded;
     var Controller = {
         name: "Guarded",
     };
