@@ -21,7 +21,7 @@ module.exports = function (app) {
     // Retrieve a single role by id
     // GET @/api/roles/:id
     Controller.getRole = function (req, res) {
-        Role.findByPk(req.params.id)
+        Role.findByPk(req.params.role_id)
             .then(role => {
                 if (!role) {
                     return res.status(404).send({ message: "Role not found" });
@@ -49,7 +49,7 @@ module.exports = function (app) {
     // PATCH @/api/roles/:id
     Controller.updateRole = function (req, res) {
         Role.update({ name: req.body.name }, { 
-            where: { id: req.params.id },
+            where: { id: req.params.role_id },
             returning: true,
             plain: true
         })
@@ -71,7 +71,7 @@ module.exports = function (app) {
     // Delete a role
     // DELETE @/api/roles/:id
     Controller.deleteRole = function (req, res) {
-        Role.destroy({ where: { id: req.params.id } })
+        Role.destroy({ where: { id: req.params.role_id } })
             .then(deleted => {
                 if (!deleted) {
                     return res.status(404).send({ message: "Role not found" });

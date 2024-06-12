@@ -35,7 +35,7 @@ module.exports = function (app) {
     // Retrieve a single user by id
     // GET @/api/users/:id
     Controller.getUser = function (req, res) {
-        User.findByPk(req.params.id, {
+        User.findByPk(req.params.user_id, {
             include: [{
                 model: Role,
                 as: 'Role'
@@ -72,7 +72,7 @@ module.exports = function (app) {
     // PATCH @/api/users/:id
     Controller.updateUser = function (req, res) {
         User.update(req.body, { 
-            where: { id: req.params.id }, 
+            where: { id: req.params.user_id }, 
             returning: true, 
             plain: true 
         })
@@ -94,7 +94,7 @@ module.exports = function (app) {
     // Delete a user
     // DELETE @/api/users/:id
     Controller.deleteUser = function (req, res) {
-        User.destroy({ where: { id: req.params.id } })
+        User.destroy({ where: { id: req.params.user_id } })
             .then(deleted => {
                 if (!deleted) {
                     return res.status(404).send({ message: "User not found" });

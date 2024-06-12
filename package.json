@@ -6,7 +6,14 @@
 	"scripts": {
 		"test": "jest --watch",
 		"dev": "set SERVER_ENV=development&& nodemon server.js",
-		"prod": "set SERVER_ENV=production&& nodemon server.js"
+		"prod": "set SERVER_ENV=production&& nodemon server.js",
+		"db:up": "echo creating && npm run db:create && echo created && npm run db:migrate && echo migrated",
+		"db:reset": "npm run db:drop && npm run db:up",
+		"db:create": "npx sequelize db:create",
+		"db:drop": "[[ $NODE_ENV == production ]] && exit 1 || npx sequelize db:drop",
+		"db:migrate": "npx sequelize db:migrate",
+		"db:rollback": "npx sequelize db:migrate:undo",
+		"db:rollback:all": "npx sequelize db:migrate:undo:all"
 	},
 	"jest": {
 		"testEnvironment": "node"
@@ -22,11 +29,15 @@
 		"axios": "^1.6.8",
 		"bcrypt": "^5.1.1",
 		"bs58": "^5.0.0",
+		"chalk": "^4.1.2",
 		"cors": "^2.8.5",
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
+		"express-pino-logger": "^7.0.0",
 		"express-rate-limit": "^7.3.0",
-		"express-validator": "^7.0.1",
+		"express-response-hooks": "^1.0.4",
+		"express-validator": "^7.1.0",
+		"figlet": "^1.7.0",
 		"helmet": "^7.1.0",
 		"jest-mock": "^29.7.0",
 		"jsonwebtoken": "^9.0.2",
@@ -38,8 +49,11 @@
 		"node-cron": "^3.0.3",
 		"node-mocks-http": "^1.14.1",
 		"nodemon": "^3.1.0",
+		"pino": "^9.2.0",
+		"pino-pretty": "^11.2.1",
 		"pm2": "^5.3.1",
 		"sequelize": "^6.37.3",
+		"serve-index": "^1.9.1",
 		"socket.io": "^4.7.5",
 		"sriracha": "^1.0.0",
 		"ws": "^8.17.0"

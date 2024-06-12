@@ -18,7 +18,6 @@ module.exports = function (app) {
                     return res.status(401).json({ message: "Authentication Failed: Invalid token.", err: err.message });
                 }
 
-                // Find the session in the database
                 const session = await Session.findOne({
                     where: {
                         token: token,
@@ -30,9 +29,7 @@ module.exports = function (app) {
                     return res.status(401).json({ message: "No valid session found." });
                 }
 
-                // Check if the session has expired
                 if (session.expiresAt < new Date()) {
-                    // If the session has expired, delete it from the database
                     await Session.destroy({
                         where: {
                             token: token,
@@ -42,7 +39,6 @@ module.exports = function (app) {
                     return res.status(401).json({ message: "Token expired." });
                 }
 
-                // Set the user ID to req for subsequent middleware
                 req.userId = decoded.userId;
                 next();
             });

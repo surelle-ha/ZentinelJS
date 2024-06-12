@@ -16,30 +16,16 @@ Zentinel.JS is a backend framework / boilerplate built on top of Express.JS, str
 ![NodeJS](https://img.shields.io/badge/Node.JS-black?style=for-the-badge&logo=node.js)
 </div>
 
-## Table of Contents
-- Features
-- Installation
-- Environment Variables
-- Commands
-- Project Structure
-- API Documentation
-- Error Handling
-- Validation
-- Authentication
-- Authorization
-- Logging
-- Rate Limit
-- Socket / Realtime Data
-- Contributing
-
 ## Features
 Below are the features of Zentinel.JS:
+- Zentinel CLI
 - Builtin Authentication using JSON Web Token.
 - Builtin Role-Based Access Control as Authorization.
 - Configured Mongoose for MongoDB 
 - Configured Sequelize for MySQL
 - Configured CORS, Helmet and Securities
 - Interconnected MVC Components
+- Sequelize UI / ORM Code Generator
 
 ## Installation
 Installation via CommandLine Interface
@@ -152,13 +138,14 @@ zentinel --help
 zentinel init
 zentinel create
 ```
+- [2024/06/12] Sequelize ORM Code Generator is added and can now be accessed on /orm-builder
 
 ## Goal Checklist
 - [x] Add Rate Limit
 - [x] Integrate Mongoose ORM
 - [x] Integrate Sequelize ORM
-- [ ] Add Socket.io as Native Feature
-- [ ] Add Logger Utility
+- [x] Add Socket.io as Native Feature
+- [x] Add Logger Utility - Pino
 - [x] Recreate Zentinel CLI
 - [x] Implement Migration and Seeding
 - [x] Publish `zentinel-cli` to NPM
@@ -167,6 +154,11 @@ zentinel create
 - [ ] Add Cron Job
 - [ ] Add Custom Function
 - [ ] Add Storage Driver Support
+- [ ] Add Express Validator
+- [ ] Add express-response-hooks
+- [x] Restructure Directories
+- [ ] Typescript Support
+- [x] Sequelize ORM Code Generator added
 
 ## Developer
 As a developer who constantly seeks to improve my development skills, my goal with Zentinel.JS is to create a powerful yet intuitive backend framework that simplifies the development process for fellow developers. I aim to provide a robust toolset that makes backend operations more efficient and enjoyable, ensuring that developers can focus on building great applications without getting bogged down by repetitive tasks.

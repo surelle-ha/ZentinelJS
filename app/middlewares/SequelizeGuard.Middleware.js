@@ -14,10 +14,10 @@ module.exports = function (app) {
             const user = await User.findByPk(req.userId, {
                 include: [{
                     model: Role,
-                    as: 'Role',  // Make sure this matches the alias used in your User model's association
+                    as: 'Role',  
                     include: [{
                         model: Permission,
-                        as: 'Permissions'  // And this matches the alias used in your Role model's association
+                        as: 'Permissions'  
                     }]
                 }]
             });
@@ -28,7 +28,7 @@ module.exports = function (app) {
     
             const permissions = user.Role.Permissions.map(permission => permission.name);
             if (permissions.includes(requiredPermission)) {
-                next();  // Permission is found, continue to the next middleware
+                next();  
             } else {
                 return res.status(403).send({ message: "Access denied. You do not have the required permission." });
             }
