@@ -66,5 +66,11 @@
 		"mocha": "^10.4.0",
 		"sequelize-cli": "^6.6.2",
 		"supertest": "^7.0.0"
+	},
+	"_moduleAliases": {
+		"@": ".", 
+		"@root": ".",
+		"@app": "./app",  
+		"@config": "./config"
 	}
 }
