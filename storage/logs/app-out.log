@@ -1,0 +1,1119 @@
+2024-06-15T12:05:16: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:16: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:16: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:16: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:16: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:16: Model: Session, Associations:  []
+2024-06-15T12:05:16: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:16: c2024-06-15T12:05:16:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:16: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:16: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:16: 
+Routes: 
+2024-06-15T12:05:16: ~ POST /api/v1/auth/login
+2024-06-15T12:05:16: ~ POST /api/v1/auth/register
+2024-06-15T12:05:16: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:16: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:16: ~ POST /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:16: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:16: ~ POST /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/users
+2024-06-15T12:05:16: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:16: 
+Server Logs:
+2024-06-15T12:05:16: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:16: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:16: Model: Session, Associations:  []
+2024-06-15T12:05:16: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:16: c2024-06-15T12:05:16:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:16: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:16: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:16: 
+Routes: 
+2024-06-15T12:05:16: ~ POST /api/v1/auth/login
+2024-06-15T12:05:16: ~ POST /api/v1/auth/register
+2024-06-15T12:05:16: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:16: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:16: ~ POST /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:16: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:16: ~ POST /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/users
+2024-06-15T12:05:16: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:16: 
+Server Logs:
+2024-06-15T12:05:16: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:16: [SQL] MySQL Connected
+2024-06-15T12:05:16: [SQL] MySQL Connected
+2024-06-15T12:05:16: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:16: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:16: Model: Session, Associations:  []
+2024-06-15T12:05:16: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:16: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:16: c2024-06-15T12:05:16:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:16: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:16: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:16: 
+Routes: 
+2024-06-15T12:05:16: ~ POST /api/v1/auth/login
+2024-06-15T12:05:16: ~ POST /api/v1/auth/register
+2024-06-15T12:05:16: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:16: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:16: ~ POST /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:16: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:16: ~ POST /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/users
+2024-06-15T12:05:16: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:16: 
+Server Logs:
+2024-06-15T12:05:16: [SQL] MySQL Connected
+2024-06-15T12:05:16: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:16: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:16: Model: Session, Associations:  []
+2024-06-15T12:05:16: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:16: c2024-06-15T12:05:16:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:16: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:16: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:16: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:16: 
+Routes: 
+2024-06-15T12:05:16: ~ POST /api/v1/auth/login
+2024-06-15T12:05:16: ~ POST /api/v1/auth/register
+2024-06-15T12:05:16: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:16: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:16: ~ POST /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles
+2024-06-15T12:05:16: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles
+2024-06-15T12:05:16: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:16: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:16: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:16: ~ POST /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users
+2024-06-15T12:05:16: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ DELETE /api/v1/users
+2024-06-15T12:05:16: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:16: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:16: 
+Server Logs:
+2024-06-15T12:05:16: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:16: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:16: Model: Session, Associations:  []
+2024-06-15T12:05:16: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:17: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:17: Model: Session, Associations:  []
+2024-06-15T12:05:17: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: c2024-06-15T12:05:17:   _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+2024-06-15T12:05:17: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:17: 	
+	- Local:	http://localhost:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:17: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:17: 
+Routes: 
+2024-06-15T12:05:17: ~ POST /api/v1/auth/login
+2024-06-15T12:05:17: ~ POST /api/v1/auth/register
+2024-06-15T12:05:17: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:17: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:17: ~ POST /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles
+2024-06-15T12:05:17: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles
+2024-06-15T12:05:17: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:17: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:17: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:17: ~ POST /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users
+2024-06-15T12:05:17: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ DELETE /api/v1/users
+2024-06-15T12:05:17: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:17: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:17: 
+Server Logs:
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:17: [SQL] MySQL Connected
+2024-06-15T12:05:44: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:05:44: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:05:44: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:05:44: Model: Session, Associations:  []
+2024-06-15T12:05:44: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:05:44: c
+2024-06-15T12:05:44:   _____                 _     _                  _ 
+2024-06-15T12:05:44:  |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+2024-06-15T12:05:44:    / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+2024-06-15T12:05:44:   / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+2024-06-15T12:05:44:  /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+2024-06-15T12:05:44:                                                    
+2024-06-15T12:05:44: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:05:44: 	
+2024-06-15T12:05:44: 	- Local:	http://localhost:80
+2024-06-15T12:05:44: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:05:44: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:05:44: 
+2024-06-15T12:05:44: Routes: 
+2024-06-15T12:05:44: ~ POST /api/v1/auth/login
+2024-06-15T12:05:44: ~ POST /api/v1/auth/register
+2024-06-15T12:05:44: ~ POST /api/v1/auth/logout
+2024-06-15T12:05:44: ~ GET /api/v1/guarded/test
+2024-06-15T12:05:44: ~ POST /api/v1/roles
+2024-06-15T12:05:44: ~ GET /api/v1/roles
+2024-06-15T12:05:44: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:05:44: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:05:44: ~ DELETE /api/v1/roles
+2024-06-15T12:05:44: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:05:44: ~ POST /api/v1/role/permissions
+2024-06-15T12:05:44: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:05:44: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:05:44: ~ POST /api/v1/users
+2024-06-15T12:05:44: ~ GET /api/v1/users
+2024-06-15T12:05:44: ~ GET /api/v1/users/:user_id
+2024-06-15T12:05:44: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:05:44: ~ DELETE /api/v1/users
+2024-06-15T12:05:44: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:05:44: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:05:44: 
+2024-06-15T12:05:44: Server Logs:
+2024-06-15T12:05:44: [SQL] MySQL Connected
+2024-06-15T12:06:10: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:06:10: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:06:10: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:06:10: Model: Session, Associations:  []
+2024-06-15T12:06:10: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:06:10: c
+2024-06-15T12:06:10:   _____                 _     _                  _ 
+2024-06-15T12:06:10:  |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+2024-06-15T12:06:10:    / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+2024-06-15T12:06:10:   / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+2024-06-15T12:06:10:  /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+2024-06-15T12:06:10:                                                    
+2024-06-15T12:06:10: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:06:10: 	
+2024-06-15T12:06:10: 	- Local:	http://localhost:80
+2024-06-15T12:06:10: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:06:10: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:06:10: 
+2024-06-15T12:06:10: Routes: 
+2024-06-15T12:06:10: ~ POST /api/v1/auth/login
+2024-06-15T12:06:10: ~ POST /api/v1/auth/register
+2024-06-15T12:06:10: ~ POST /api/v1/auth/logout
+2024-06-15T12:06:10: ~ GET /api/v1/guarded/test
+2024-06-15T12:06:10: ~ POST /api/v1/roles
+2024-06-15T12:06:10: ~ GET /api/v1/roles
+2024-06-15T12:06:10: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:06:10: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:06:10: ~ DELETE /api/v1/roles
+2024-06-15T12:06:10: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:06:10: ~ POST /api/v1/role/permissions
+2024-06-15T12:06:10: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:06:10: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:06:10: ~ POST /api/v1/users
+2024-06-15T12:06:10: ~ GET /api/v1/users
+2024-06-15T12:06:10: ~ GET /api/v1/users/:user_id
+2024-06-15T12:06:10: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:06:10: ~ DELETE /api/v1/users
+2024-06-15T12:06:10: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:06:10: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:06:10: 
+2024-06-15T12:06:10: Server Logs:
+2024-06-15T12:06:10: [SQL] MySQL Connected
+2024-06-15T12:07:51: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:07:51: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:07:51: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:07:51: Model: Session, Associations:  []
+2024-06-15T12:07:51: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:07:51: c
+2024-06-15T12:07:51:   _____                 _     _                  _ 
+2024-06-15T12:07:51:  |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+2024-06-15T12:07:51:    / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+2024-06-15T12:07:51:   / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+2024-06-15T12:07:51:  /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+2024-06-15T12:07:51:                                                    
+2024-06-15T12:07:51: ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+2024-06-15T12:07:51: 	
+2024-06-15T12:07:51: 	- Local:	http://localhost:80
+2024-06-15T12:07:51: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:07:51: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:07:51: 
+2024-06-15T12:07:51: Routes: 
+2024-06-15T12:07:51: ~ POST /api/v1/auth/login
+2024-06-15T12:07:51: ~ POST /api/v1/auth/register
+2024-06-15T12:07:51: ~ POST /api/v1/auth/logout
+2024-06-15T12:07:51: ~ GET /api/v1/guarded/test
+2024-06-15T12:07:51: ~ POST /api/v1/roles
+2024-06-15T12:07:51: ~ GET /api/v1/roles
+2024-06-15T12:07:51: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:07:51: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:07:51: ~ DELETE /api/v1/roles
+2024-06-15T12:07:51: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:07:51: ~ POST /api/v1/role/permissions
+2024-06-15T12:07:51: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:07:51: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:07:51: ~ POST /api/v1/users
+2024-06-15T12:07:51: ~ GET /api/v1/users
+2024-06-15T12:07:51: ~ GET /api/v1/users/:user_id
+2024-06-15T12:07:51: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:07:51: ~ DELETE /api/v1/users
+2024-06-15T12:07:51: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:07:51: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:07:51: 
+2024-06-15T12:07:51: Server Logs:
+2024-06-15T12:07:51: [SQL] MySQL Connected
+2024-06-15T12:08:02: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:08:02: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:08:02: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:08:02: Model: Session, Associations:  []
+2024-06-15T12:08:02: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:08:02: c
+2024-06-15T12:08:02:   _____                 _     _                  _ 
+2024-06-15T12:08:02:  |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+2024-06-15T12:08:02:    / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+2024-06-15T12:08:02:   / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+2024-06-15T12:08:02:  /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+2024-06-15T12:08:02:                                                    
+2024-06-15T12:08:02: ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+2024-06-15T12:08:02: 	
+2024-06-15T12:08:02: 	- Local:	http://localhost:80
+2024-06-15T12:08:02: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:08:02: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:08:02: 
+2024-06-15T12:08:02: Routes: 
+2024-06-15T12:08:02: ~ POST /api/v1/auth/login
+2024-06-15T12:08:02: ~ POST /api/v1/auth/register
+2024-06-15T12:08:02: ~ POST /api/v1/auth/logout
+2024-06-15T12:08:02: ~ GET /api/v1/guarded/test
+2024-06-15T12:08:02: ~ POST /api/v1/roles
+2024-06-15T12:08:02: ~ GET /api/v1/roles
+2024-06-15T12:08:02: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:08:02: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:08:02: ~ DELETE /api/v1/roles
+2024-06-15T12:08:02: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:08:02: ~ POST /api/v1/role/permissions
+2024-06-15T12:08:02: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:08:02: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:08:02: ~ POST /api/v1/users
+2024-06-15T12:08:02: ~ GET /api/v1/users
+2024-06-15T12:08:02: ~ GET /api/v1/users/:user_id
+2024-06-15T12:08:02: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:08:02: ~ DELETE /api/v1/users
+2024-06-15T12:08:02: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:08:02: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:08:02: 
+2024-06-15T12:08:02: Server Logs:
+2024-06-15T12:08:02: [SQL] MySQL Connected
+2024-06-15T12:10:39: [2024-06-15 12:10:39.306 +0800] [32mINFO[39m: [36mrequest completed[39m
+2024-06-15T12:10:39:     req: {
+2024-06-15T12:10:39:       "id": 1,
+2024-06-15T12:10:39:       "method": "GET",
+2024-06-15T12:10:39:       "url": "/guides/installation/",
+2024-06-15T12:10:39:       "query": {},
+2024-06-15T12:10:39:       "params": {},
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "host": "localhost",
+2024-06-15T12:10:39:         "connection": "keep-alive",
+2024-06-15T12:10:39:         "cache-control": "max-age=0",
+2024-06-15T12:10:39:         "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+2024-06-15T12:10:39:         "sec-ch-ua-mobile": "?0",
+2024-06-15T12:10:39:         "sec-ch-ua-platform": "\"Windows\"",
+2024-06-15T12:10:39:         "upgrade-insecure-requests": "1",
+2024-06-15T12:10:39:         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+2024-06-15T12:10:39:         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+2024-06-15T12:10:39:         "sec-gpc": "1",
+2024-06-15T12:10:39:         "accept-language": "en-GB,en",
+2024-06-15T12:10:39:         "sec-fetch-site": "same-origin",
+2024-06-15T12:10:39:         "sec-fetch-mode": "navigate",
+2024-06-15T12:10:39:         "sec-fetch-user": "?1",
+2024-06-15T12:10:39:         "sec-fetch-dest": "document",
+2024-06-15T12:10:39:         "accept-encoding": "gzip, deflate, br, zstd",
+2024-06-15T12:10:39:         "if-none-match": "W/\"6d4c-18ff8572ce1\"",
+2024-06-15T12:10:39:         "if-modified-since": "Sat, 08 Jun 2024 14:53:33 GMT"
+2024-06-15T12:10:39:       },
+2024-06-15T12:10:39:       "remoteAddress": "::1",
+2024-06-15T12:10:39:       "remotePort": 6361
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     res: {
+2024-06-15T12:10:39:       "statusCode": 304,
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "ratelimit-policy": "10;w=900",
+2024-06-15T12:10:39:         "ratelimit": "limit=10, remaining=9, reset=900",
+2024-06-15T12:10:39:         "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+2024-06-15T12:10:39:         "cross-origin-opener-policy": "same-origin",
+2024-06-15T12:10:39:         "cross-origin-resource-policy": "same-origin",
+2024-06-15T12:10:39:         "origin-agent-cluster": "?1",
+2024-06-15T12:10:39:         "referrer-policy": "no-referrer",
+2024-06-15T12:10:39:         "strict-transport-security": "max-age=15552000; includeSubDomains",
+2024-06-15T12:10:39:         "x-content-type-options": "nosniff",
+2024-06-15T12:10:39:         "x-dns-prefetch-control": "off",
+2024-06-15T12:10:39:         "x-download-options": "noopen",
+2024-06-15T12:10:39:         "x-frame-options": "SAMEORIGIN",
+2024-06-15T12:10:39:         "x-permitted-cross-domain-policies": "none",
+2024-06-15T12:10:39:         "x-xss-protection": "0",
+2024-06-15T12:10:39:         "vary": "Origin",
+2024-06-15T12:10:39:         "accept-ranges": "bytes",
+2024-06-15T12:10:39:         "cache-control": "public, max-age=0",
+2024-06-15T12:10:39:         "last-modified": "Sat, 08 Jun 2024 14:53:33 GMT",
+2024-06-15T12:10:39:         "etag": "W/\"6d4c-18ff8572ce1\""
+2024-06-15T12:10:39:       }
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     responseTime: 3
+2024-06-15T12:10:39: [2024-06-15 12:10:39.336 +0800] [32mINFO[39m: [36mrequest completed[39m
+2024-06-15T12:10:39:     req: {
+2024-06-15T12:10:39:       "id": 2,
+2024-06-15T12:10:39:       "method": "GET",
+2024-06-15T12:10:39:       "url": "/_astro/index.P55pvqdl.css",
+2024-06-15T12:10:39:       "query": {},
+2024-06-15T12:10:39:       "params": {},
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "host": "localhost",
+2024-06-15T12:10:39:         "connection": "keep-alive",
+2024-06-15T12:10:39:         "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+2024-06-15T12:10:39:         "if-none-match": "W/\"de65-18ff8572b8b\"",
+2024-06-15T12:10:39:         "if-modified-since": "Sat, 08 Jun 2024 14:53:33 GMT",
+2024-06-15T12:10:39:         "sec-ch-ua-mobile": "?0",
+2024-06-15T12:10:39:         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+2024-06-15T12:10:39:         "sec-ch-ua-platform": "\"Windows\"",
+2024-06-15T12:10:39:         "accept": "text/css,*/*;q=0.1",
+2024-06-15T12:10:39:         "sec-gpc": "1",
+2024-06-15T12:10:39:         "accept-language": "en-GB,en",
+2024-06-15T12:10:39:         "sec-fetch-site": "same-origin",
+2024-06-15T12:10:39:         "sec-fetch-mode": "no-cors",
+2024-06-15T12:10:39:         "sec-fetch-dest": "style",
+2024-06-15T12:10:39:         "accept-encoding": "gzip, deflate, br, zstd"
+2024-06-15T12:10:39:       },
+2024-06-15T12:10:39:       "remoteAddress": "::1",
+2024-06-15T12:10:39:       "remotePort": 6361
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     res: {
+2024-06-15T12:10:39:       "statusCode": 304,
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "ratelimit-policy": "10;w=900",
+2024-06-15T12:10:39:         "ratelimit": "limit=10, remaining=8, reset=900",
+2024-06-15T12:10:39:         "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+2024-06-15T12:10:39:         "cross-origin-opener-policy": "same-origin",
+2024-06-15T12:10:39:         "cross-origin-resource-policy": "same-origin",
+2024-06-15T12:10:39:         "origin-agent-cluster": "?1",
+2024-06-15T12:10:39:         "referrer-policy": "no-referrer",
+2024-06-15T12:10:39:         "strict-transport-security": "max-age=15552000; includeSubDomains",
+2024-06-15T12:10:39:         "x-content-type-options": "nosniff",
+2024-06-15T12:10:39:         "x-dns-prefetch-control": "off",
+2024-06-15T12:10:39:         "x-download-options": "noopen",
+2024-06-15T12:10:39:         "x-frame-options": "SAMEORIGIN",
+2024-06-15T12:10:39:         "x-permitted-cross-domain-policies": "none",
+2024-06-15T12:10:39:         "x-xss-protection": "0",
+2024-06-15T12:10:39:         "vary": "Origin",
+2024-06-15T12:10:39:         "accept-ranges": "bytes",
+2024-06-15T12:10:39:         "cache-control": "public, max-age=0",
+2024-06-15T12:10:39:         "last-modified": "Sat, 08 Jun 2024 14:53:33 GMT",
+2024-06-15T12:10:39:         "etag": "W/\"de65-18ff8572b8b\""
+2024-06-15T12:10:39:       }
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     responseTime: 8
+2024-06-15T12:10:39: [2024-06-15 12:10:39.336 +0800] [32mINFO[39m: [36mrequest completed[39m
+2024-06-15T12:10:39:     req: {
+2024-06-15T12:10:39:       "id": 3,
+2024-06-15T12:10:39:       "method": "GET",
+2024-06-15T12:10:39:       "url": "/_astro/ec.d6kn2.css",
+2024-06-15T12:10:39:       "query": {},
+2024-06-15T12:10:39:       "params": {},
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "host": "localhost",
+2024-06-15T12:10:39:         "connection": "keep-alive",
+2024-06-15T12:10:39:         "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+2024-06-15T12:10:39:         "if-none-match": "W/\"46f2-18ff8572c58\"",
+2024-06-15T12:10:39:         "if-modified-since": "Sat, 08 Jun 2024 14:53:33 GMT",
+2024-06-15T12:10:39:         "sec-ch-ua-mobile": "?0",
+2024-06-15T12:10:39:         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+2024-06-15T12:10:39:         "sec-ch-ua-platform": "\"Windows\"",
+2024-06-15T12:10:39:         "accept": "text/css,*/*;q=0.1",
+2024-06-15T12:10:39:         "sec-gpc": "1",
+2024-06-15T12:10:39:         "accept-language": "en-GB,en",
+2024-06-15T12:10:39:         "sec-fetch-site": "same-origin",
+2024-06-15T12:10:39:         "sec-fetch-mode": "no-cors",
+2024-06-15T12:10:39:         "sec-fetch-dest": "style",
+2024-06-15T12:10:39:         "accept-encoding": "gzip, deflate, br, zstd"
+2024-06-15T12:10:39:       },
+2024-06-15T12:10:39:       "remoteAddress": "::1",
+2024-06-15T12:10:39:       "remotePort": 6363
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     res: {
+2024-06-15T12:10:39:       "statusCode": 304,
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "ratelimit-policy": "10;w=900",
+2024-06-15T12:10:39:         "ratelimit": "limit=10, remaining=6, reset=900",
+2024-06-15T12:10:39:         "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+2024-06-15T12:10:39:         "cross-origin-opener-policy": "same-origin",
+2024-06-15T12:10:39:         "cross-origin-resource-policy": "same-origin",
+2024-06-15T12:10:39:         "origin-agent-cluster": "?1",
+2024-06-15T12:10:39:         "referrer-policy": "no-referrer",
+2024-06-15T12:10:39:         "strict-transport-security": "max-age=15552000; includeSubDomains",
+2024-06-15T12:10:39:         "x-content-type-options": "nosniff",
+2024-06-15T12:10:39:         "x-dns-prefetch-control": "off",
+2024-06-15T12:10:39:         "x-download-options": "noopen",
+2024-06-15T12:10:39:         "x-frame-options": "SAMEORIGIN",
+2024-06-15T12:10:39:         "x-permitted-cross-domain-policies": "none",
+2024-06-15T12:10:39:         "x-xss-protection": "0",
+2024-06-15T12:10:39:         "vary": "Origin",
+2024-06-15T12:10:39:         "accept-ranges": "bytes",
+2024-06-15T12:10:39:         "cache-control": "public, max-age=0",
+2024-06-15T12:10:39:         "last-modified": "Sat, 08 Jun 2024 14:53:33 GMT",
+2024-06-15T12:10:39:         "etag": "W/\"46f2-18ff8572c58\""
+2024-06-15T12:10:39:       }
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     responseTime: 4
+2024-06-15T12:10:39: [2024-06-15 12:10:39.389 +0800] [32mINFO[39m: [36mrequest completed[39m
+2024-06-15T12:10:39:     req: {
+2024-06-15T12:10:39:       "id": 4,
+2024-06-15T12:10:39:       "method": "GET",
+2024-06-15T12:10:39:       "url": "/favicon.svg",
+2024-06-15T12:10:39:       "query": {},
+2024-06-15T12:10:39:       "params": {},
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "host": "localhost",
+2024-06-15T12:10:39:         "connection": "keep-alive",
+2024-06-15T12:10:39:         "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+2024-06-15T12:10:39:         "sec-ch-ua-mobile": "?0",
+2024-06-15T12:10:39:         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+2024-06-15T12:10:39:         "sec-ch-ua-platform": "\"Windows\"",
+2024-06-15T12:10:39:         "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+2024-06-15T12:10:39:         "sec-gpc": "1",
+2024-06-15T12:10:39:         "accept-language": "en-GB,en",
+2024-06-15T12:10:39:         "sec-fetch-site": "same-origin",
+2024-06-15T12:10:39:         "sec-fetch-mode": "no-cors",
+2024-06-15T12:10:39:         "sec-fetch-dest": "image",
+2024-06-15T12:10:39:         "accept-encoding": "gzip, deflate, br, zstd",
+2024-06-15T12:10:39:         "if-none-match": "W/\"2b8-18fed0e6270\"",
+2024-06-15T12:10:39:         "if-modified-since": "Thu, 06 Jun 2024 10:18:14 GMT"
+2024-06-15T12:10:39:       },
+2024-06-15T12:10:39:       "remoteAddress": "::1",
+2024-06-15T12:10:39:       "remotePort": 6363
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     res: {
+2024-06-15T12:10:39:       "statusCode": 304,
+2024-06-15T12:10:39:       "headers": {
+2024-06-15T12:10:39:         "ratelimit-policy": "10;w=900",
+2024-06-15T12:10:39:         "ratelimit": "limit=10, remaining=3, reset=900",
+2024-06-15T12:10:39:         "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+2024-06-15T12:10:39:         "cross-origin-opener-policy": "same-origin",
+2024-06-15T12:10:39:         "cross-origin-resource-policy": "same-origin",
+2024-06-15T12:10:39:         "origin-agent-cluster": "?1",
+2024-06-15T12:10:39:         "referrer-policy": "no-referrer",
+2024-06-15T12:10:39:         "strict-transport-security": "max-age=15552000; includeSubDomains",
+2024-06-15T12:10:39:         "x-content-type-options": "nosniff",
+2024-06-15T12:10:39:         "x-dns-prefetch-control": "off",
+2024-06-15T12:10:39:         "x-download-options": "noopen",
+2024-06-15T12:10:39:         "x-frame-options": "SAMEORIGIN",
+2024-06-15T12:10:39:         "x-permitted-cross-domain-policies": "none",
+2024-06-15T12:10:39:         "x-xss-protection": "0",
+2024-06-15T12:10:39:         "vary": "Origin",
+2024-06-15T12:10:39:         "accept-ranges": "bytes",
+2024-06-15T12:10:39:         "cache-control": "public, max-age=0",
+2024-06-15T12:10:39:         "last-modified": "Thu, 06 Jun 2024 10:18:14 GMT",
+2024-06-15T12:10:39:         "etag": "W/\"2b8-18fed0e6270\""
+2024-06-15T12:10:39:       }
+2024-06-15T12:10:39:     }
+2024-06-15T12:10:39:     responseTime: 0
+2024-06-15T12:13:18: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:13:18: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:13:18: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:13:18: Model: Session, Associations:  []
+2024-06-15T12:13:18: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:13:19: c
+2024-06-15T12:13:19:   _____                 _     _                  _ 
+2024-06-15T12:13:19:  |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+2024-06-15T12:13:19:    / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+2024-06-15T12:13:19:   / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+2024-06-15T12:13:19:  /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+2024-06-15T12:13:19:                                                    
+2024-06-15T12:13:19: ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+2024-06-15T12:13:19: 	
+2024-06-15T12:13:19: 	- Local:	http://localhost:80
+2024-06-15T12:13:19: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:13:19: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:13:19: 
+2024-06-15T12:13:19: Routes: 
+2024-06-15T12:13:19: ~ POST /api/v1/auth/login
+2024-06-15T12:13:19: ~ POST /api/v1/auth/register
+2024-06-15T12:13:19: ~ POST /api/v1/auth/logout
+2024-06-15T12:13:19: ~ GET /api/v1/guarded/test
+2024-06-15T12:13:19: ~ POST /api/v1/roles
+2024-06-15T12:13:19: ~ GET /api/v1/roles
+2024-06-15T12:13:19: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:13:19: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:13:19: ~ DELETE /api/v1/roles
+2024-06-15T12:13:19: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:13:19: ~ POST /api/v1/role/permissions
+2024-06-15T12:13:19: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:13:19: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:13:19: ~ POST /api/v1/users
+2024-06-15T12:13:19: ~ GET /api/v1/users
+2024-06-15T12:13:19: ~ GET /api/v1/users/:user_id
+2024-06-15T12:13:19: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:13:19: ~ DELETE /api/v1/users
+2024-06-15T12:13:19: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:13:19: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:13:19: 
+2024-06-15T12:13:19: Server Logs:
+2024-06-15T12:13:19: [SQL] MySQL Connected
+2024-06-15T12:14:08: Model: Permission, Associations:  [ 'Roles' ]
+2024-06-15T12:14:08: Model: Role, Associations:  [ 'Permissions' ]
+2024-06-15T12:14:08: Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+2024-06-15T12:14:08: Model: Session, Associations:  []
+2024-06-15T12:14:08: Model: User, Associations:  [ 'Role' ]
+2024-06-15T12:14:08: c
+2024-06-15T12:14:08:   _____                 _     _                  _ 
+2024-06-15T12:14:08:  |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+2024-06-15T12:14:08:    / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+2024-06-15T12:14:08:   / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+2024-06-15T12:14:08:  /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+2024-06-15T12:14:08:                                                    
+2024-06-15T12:14:08: ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+2024-06-15T12:14:08: 	
+2024-06-15T12:14:08: 	- Local:	http://localhost:80
+2024-06-15T12:14:08: 	- Network:	http://192.168.56.1:80
+2024-06-15T12:14:08: 	- Network:	http://192.168.100.82:80
+2024-06-15T12:14:08: 
+2024-06-15T12:14:08: Routes: 
+2024-06-15T12:14:08: ~ POST /api/v1/auth/login
+2024-06-15T12:14:08: ~ POST /api/v1/auth/register
+2024-06-15T12:14:08: ~ POST /api/v1/auth/logout
+2024-06-15T12:14:08: ~ GET /api/v1/guarded/test
+2024-06-15T12:14:08: ~ POST /api/v1/roles
+2024-06-15T12:14:08: ~ GET /api/v1/roles
+2024-06-15T12:14:08: ~ GET /api/v1/roles/:role_id
+2024-06-15T12:14:08: ~ PATCH /api/v1/roles/:role_id
+2024-06-15T12:14:08: ~ DELETE /api/v1/roles
+2024-06-15T12:14:08: ~ DELETE /api/v1/roles/:role_id
+2024-06-15T12:14:08: ~ POST /api/v1/role/permissions
+2024-06-15T12:14:08: ~ GET /api/v1/role/permissions/:role_id
+2024-06-15T12:14:08: ~ DELETE /api/v1/role/permissions
+2024-06-15T12:14:08: ~ POST /api/v1/users
+2024-06-15T12:14:08: ~ GET /api/v1/users
+2024-06-15T12:14:08: ~ GET /api/v1/users/:user_id
+2024-06-15T12:14:08: ~ PATCH /api/v1/users/:user_id
+2024-06-15T12:14:08: ~ DELETE /api/v1/users
+2024-06-15T12:14:08: ~ DELETE /api/v1/users/:user_id
+2024-06-15T12:14:08: ~ POST /webhook/ratelimit/reset
+2024-06-15T12:14:08: 
+2024-06-15T12:14:08: Server Logs:
+2024-06-15T12:14:08: [SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:80
+	- Network:	http://192.168.56.1:80
+	- Network:	http://192.168.100.82:80
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+	
+	- Local:	http://localhost:80
+	- Network:	http://192.168.56.1:80
+	- Network:	http://192.168.100.82:80
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+	
+	- Local:	http://localhost:80
+	- Network:	http://192.168.56.1:80
+	- Network:	http://192.168.100.82:80
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN PRODUCTION ENVIRONMENT
+	
+	- Local:	http://localhost:80
+	- Network:	http://192.168.56.1:80
+	- Network:	http://192.168.100.82:80
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected

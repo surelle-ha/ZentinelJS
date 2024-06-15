@@ -13,7 +13,12 @@
 		"db:drop": "[[ $NODE_ENV == production ]] && exit 1 || npx sequelize db:drop",
 		"db:migrate": "npx sequelize db:migrate",
 		"db:rollback": "npx sequelize db:migrate:undo",
-		"db:rollback:all": "npx sequelize db:migrate:undo:all"
+		"db:rollback:all": "npx sequelize db:migrate:undo:all",
+		"pm2": "pm2 monit",
+		"pm2:dev": "pm2 start pm2.config.js",
+		"pm2:prod": "pm2 start pm2.config.js --env production",
+		"pm2:restart": "pm2 restart pm2.config.js",
+		"pm2:delete": "pm2 delete pm2.config.js"
 	},
 	"jest": {
 		"testEnvironment": "node"
@@ -52,7 +57,7 @@
 		"nodemon": "^3.1.0",
 		"pino": "^9.2.0",
 		"pino-pretty": "^11.2.1",
-		"pm2": "^5.3.1",
+		"pm2": "^2.9.2-next",
 		"sequelize": "^6.37.3",
 		"serve-index": "^1.9.1",
 		"socket.io": "^4.7.5",
@@ -69,9 +74,9 @@
 		"supertest": "^7.0.0"
 	},
 	"_moduleAliases": {
-		"@": ".", 
+		"@": ".",
 		"@root": ".",
-		"@app": "./app",  
+		"@app": "./app",
 		"@config": "./config"
 	}
 }
