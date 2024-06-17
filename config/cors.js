@@ -2,7 +2,7 @@ const cors = require("cors");
 
 /* Only modify this if you know what you're doing. */
 let allowedOrigins = [
-	"*"
+	"http://localhost:8800"
 ];
 
 const cors_options = {
