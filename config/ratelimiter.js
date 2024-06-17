@@ -15,7 +15,7 @@ const RateLimit = rateLimit({
     windowMs: windowM * 60 * 1000,
 
     /* Request Limit Per IP Per Window */
-    limit: 10,
+    limit: 1000000000,
 
     /* draft-6: `RateLimit-*` headers; draft-7: combined `RateLimit` header */
     standardHeaders: 'draft-7',
