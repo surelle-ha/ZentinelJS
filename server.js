@@ -1,7 +1,7 @@
 var figlet = require("figlet");
 const http = require('http');
 const os = require("os");
-const app = require("./app");
+const app = require("./config/app");
 const env_setup = require("./config/environments");
 const { initSocket } = require('./config/socket');
 const chalk = require('./config/console');
