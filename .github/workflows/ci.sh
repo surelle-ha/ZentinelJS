@@ -5,7 +5,7 @@ PROJECT="ZentinelJS"
 REPOSITORY="https://github.com/surelle-ha/ZentinelJS"
 BRANCH="main"
 DIRECTORY="/var/www/html"
-DEPENDENCY="wget curl git btop nodejs npm figlet"
+DEPENDENCY="wget curl git btop nodejs npm figlet xclip"
 
 # PREPARE
 if ! sudo apt install $DEPENDENCY; then
