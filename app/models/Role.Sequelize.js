@@ -13,19 +13,19 @@ module.exports = (sequelize) => {
 		{
 			sequelize,
 			modelName: "Role",
-			tableName: "Roles", 
+			tableName: "Roles",
 			timestamps: true,
 		}
 	);
 
 	Role.associate = function (models) {
-        Role.belongsToMany(models.Permission, {
-            through: 'Role_Permission',
-            as: 'Permissions',
-            foreignKey: 'role_id',
-            otherKey: 'permission_id'
-        });
-    };
+		Role.belongsToMany(models.Permission, {
+			through: "Role_Permission",
+			as: "Permissions",
+			foreignKey: "role_id",
+			otherKey: "permission_id",
+		});
+	};
 
 	return Role;
 };

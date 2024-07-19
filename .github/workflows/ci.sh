@@ -4,7 +4,6 @@
 PROJECT="ZentinelJS"
 REPOSITORY="https://github.com/surelle-ha/ZentinelJS"
 BRANCH="main"
-ENVIRONMENT="production"
 DIRECTORY="/var/www/html/"
 DEPENDENCIES=("wget" "curl" "git" "btop" "nodejs" "npm" "figlet")
 
@@ -144,7 +143,7 @@ module.exports = {
     script: 'npm',
     args: 'run start',
     env: {
-        NODE_ENV: $ENVIRONMENT
+        NODE_ENV: 'production'
     }
     }]
 };

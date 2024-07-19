@@ -1,52 +1,61 @@
 const jwt = require("jsonwebtoken");
 
 module.exports = function (app) {
-    const Session = app.models.Session;
-    var Middleware = {
-        name: "Authenticate",
-    };
+	const Session = app.models.Session;
+	var Middleware = {
+		name: "Authenticate",
+	};
 
-    Middleware.authenticate = async (req, res, next) => {
-        try {
-            const token = req.headers.authorization?.split(" ")[1];
-            if (!token) {
-                return res.status(401).json({ message: "Authentication Failed: No token provided." });
-            }
+	Middleware.authenticate = async (req, res, next) => {
+		try {
+			const token = req.headers.authorization?.split(" ")[1];
+			if (!token) {
+				return res
+					.status(401)
+					.json({ message: "Authentication Failed: No token provided." });
+			}
 
-            jwt.verify(token, process.env.JWT_SECRET, async (err, decoded) => {
-                if (err) {
-                    return res.status(401).json({ message: "Authentication Failed: Invalid token.", err: err.message });
-                }
+			jwt.verify(token, process.env.JWT_SECRET, async (err, decoded) => {
+				if (err) {
+					return res
+						.status(401)
+						.json({
+							message: "Authentication Failed: Invalid token.",
+							err: err.message,
+						});
+				}
 
-                const session = await Session.findOne({
-                    where: {
-                        token: token,
-                        userId: decoded.userId
-                    }
-                });
+				const session = await Session.findOne({
+					where: {
+						token: token,
+						userId: decoded.userId,
+					},
+				});
 
-                if (!session) {
-                    return res.status(401).json({ message: "No valid session found." });
-                }
+				if (!session) {
+					return res.status(401).json({ message: "No valid session found." });
+				}
 
-                if (session.expiresAt < new Date()) {
-                    await Session.destroy({
-                        where: {
-                            token: token,
-                            userId: decoded.userId
-                        }
-                    });
-                    return res.status(401).json({ message: "Token expired." });
-                }
+				if (session.expiresAt < new Date()) {
+					await Session.destroy({
+						where: {
+							token: token,
+							userId: decoded.userId,
+						},
+					});
+					return res.status(401).json({ message: "Token expired." });
+				}
 
-                req.userId = decoded.userId;
-                next();
-            });
-        } catch (error) {
-            console.error("Authentication middleware error:", error);
-            return res.status(500).json({ message: "Server error during authentication." });
-        }
-    };
+				req.userId = decoded.userId;
+				next();
+			});
+		} catch (error) {
+			console.error("Authentication middleware error:", error);
+			return res
+				.status(500)
+				.json({ message: "Server error during authentication." });
+		}
+	};
 
-    return Middleware;
+	return Middleware;
 };

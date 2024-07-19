@@ -33,7 +33,12 @@ if (true) app.use(cors(cors_options));
 app.use(loggerPino);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/", express.static("public"));
+app.use(express.static('public'));
+
+/* Configure EJS */
+app.set('view engine', 'ejs');
+app.set('views', './public'); 
+
 app.use('/storage', express.static('storage'), serveIndex('storage', {'icons': true }));
 app.use('/orm-builder', express.static('storage/sequelize-ui'));
 
@@ -41,11 +46,6 @@ app.config = {};
 app.config.RateLimit = RateLimit;
 
 /* Routes: Web, API */
-require("@app/utilities/__i.js")(app);
-require("@app/services/__i.js")(app);
-require("@app/models/__i.js")(app, sequelize);
-require("@app/middlewares/__i.js")(app);
-require("@app/controllers/__i.js")(app);
-require("@app/routes/__i.js")(app);
+require("@app/__i.js")(app, sequelize);
 
 module.exports = app;

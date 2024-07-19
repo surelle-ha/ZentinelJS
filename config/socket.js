@@ -4,13 +4,13 @@ let io = null;
 function initSocket(server) {
 	io = new Server(server, {
 		cors: {
-			origin: "*", 
+			origin: "*",
 			methods: ["GET", "POST"],
 		},
 	});
 
 	io.on("connection", (socket) => {
-        console.log(`[System] Connected Users: ${io.engine.clientsCount}`);
+		console.log(`[System] Connected Users: ${io.engine.clientsCount}`);
 	});
 
 	return io;
