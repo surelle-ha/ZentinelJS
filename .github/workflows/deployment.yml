@@ -1,12 +1,12 @@
-name: Deployment
+name: Production
 
 on:
   push:
     branches:
-      - development
+      - main
   pull_request:
     branches:
-      - development
+      - main
 
 jobs:
   deploy:
