@@ -4,8 +4,9 @@
 PROJECT="ZentinelJS"
 REPOSITORY="https://github.com/surelle-ha/ZentinelJS"
 BRANCH="main"
-DIRECTORY="/var/www/html/$PROJECT"
-DEPENDENCIES=("wget" "curl" "git" "btop" "nodejs" "npm" "figlet" "xclip")
+ENVIRONMENT="production"
+DIRECTORY="/var/www/html/"
+DEPENDENCIES=("wget" "curl" "git" "btop" "nodejs" "npm" "figlet")
 
 # Log Function
 log() {
@@ -31,6 +32,15 @@ install_dependencies() {
 
 # PREPARE
 install_dependencies
+
+# Install PM2 if not already installed
+if ! command_exists pm2; then
+    log "PM2 is not installed, installing now"
+    if ! npm install -g pm2; then
+        log "Failed to install PM2"
+        exit 1
+    fi
+fi
 
 # CHECK IF GIT AUTHENTICATED
 if git ls-remote $REPOSITORY &> /dev/null; then
@@ -113,6 +123,45 @@ else
         exit 1
     fi
 
+fi
+
+# PM2 Setup
+log "Setting up PM2"
+if ! command_exists pm2; then
+    log "PM2 is not installed, installing now"
+    if ! npm install -g pm2; then
+        log "Failed to install PM2"
+        exit 1
+    fi
+fi
+
+# Create PM2 ecosystem config
+log "Creating PM2 ecosystem configuration"
+cat <<EOL > ecosystem.config.js
+module.exports = {
+    apps: [{
+    name: '$PROJECT',
+    script: 'npm',
+    args: 'run start',
+    env: {
+        NODE_ENV: $ENVIRONMENT
+    }
+    }]
+};
+EOL
+
+# Start or restart application with PM2
+log "Starting application with PM2"
+if pm2 list | grep -q "$PROJECT"; then
+    if ! pm2 reload ecosystem.config.js; then
+        log "Failed to reload application with PM2"
+        exit 1
+    fi
+else
+    if ! pm2 start ecosystem.config.js; then
+        log "Failed to start application with PM2"
+        exit 1
+    fi
 fi
 
 log "Deployment Complete"
