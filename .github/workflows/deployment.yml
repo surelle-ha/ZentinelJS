@@ -27,7 +27,7 @@ jobs:
             PROJECT="ZentinelJS"
             REPOSITORY="https://github.com/surelle-ha/ZentinelJS"
             BRANCH="main"
-            DIRECTORY="/var/www/html/$PROJECT"
+            DIRECTORY="/var/www/html/"
             DEPENDENCIES=("wget" "curl" "git" "btop" "nodejs" "npm" "figlet" "xclip")
 
             # Log Function
