@@ -16,10 +16,10 @@ jobs:
       - name: Deploy to server
         uses: appleboy/ssh-action@master
         with:
-          host: "206.189.42.55"
-          username: "root"
-          password: "iIzukishun@30i"
-          port: "22"
+          host: ${{ secrets.DEV_HOST }}
+          port: ${{ secrets.DEV_PORT }}
+          username: ${{ secrets.DEV_USERNAME }}
+          password: ${{ secrets.DEV_PASSWORD }}
           script: |
             #!/usr/bin/env bash
 
@@ -28,7 +28,7 @@ jobs:
             REPOSITORY="https://github.com/surelle-ha/ZentinelJS"
             BRANCH="main"
             DIRECTORY="/var/www/html/"
-            DEPENDENCIES=("wget" "curl" "git" "btop" "nodejs" "npm" "figlet" "xclip")
+            DEPENDENCIES=("wget" "curl" "git" "btop" "nodejs" "npm" "figlet")
 
             # Log Function
             log() {
