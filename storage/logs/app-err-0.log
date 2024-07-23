@@ -1,0 +1,1274 @@
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
+Error: listen EADDRINUSE: address already in use :::8800
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\server.js:32:8)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\pm2\lib\ProcessContainerFork.js:78:21)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+ChangeWarning: The onLimitReached configuration option is deprecated and has been removed in express-rate-limit v7. See https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/ for more information.
+    at Object.onLimitReached (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:271:13)
+    at wrappedValidations.<computed> [as onLimitReached] (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:352:22)
+    at parseOptions (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:588:16)
+    at rateLimit (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\node_modules\express-rate-limit\dist\index.cjs:645:18)
+    at Object.<anonymous> (C:\Users\0110h\Desktop\Zentinel Core\Zentinel Base\config\ratelimiter.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19) {
+  code: 'WRN_ERL_DEPRECATED_ON_LIMIT_REACHED',
+  help: 'https://express-rate-limit.github.io/WRN_ERL_DEPRECATED_ON_LIMIT_REACHED/'
+}
