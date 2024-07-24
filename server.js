@@ -2,7 +2,6 @@ var figlet = require("figlet");
 const http = require('http');
 const os = require("os");
 const app = require("./config/app");
-const env_setup = require("./config/environments");
 const { initSocket } = require('./config/socket');
 const chalk = require('./config/console');
 const server = http.createServer(app); 
@@ -23,19 +22,19 @@ const showRemoteIP = () => {
 		const interfaceInfo = networkInterfaces[interfaceName];
 		for (const alias of interfaceInfo) {
 			if (alias.family === "IPv4" && !alias.internal) {
-				console.log(`\t- Network:\t${chalk.green('http://'+alias.address+':'+env_setup.PORT)}`);
+				console.log(`\t- Network:\t${chalk.green('http://'+alias.address+':'+app.env.SERVER_PORT)}`);
 			}
 		}
 	}
 };
 
-server.listen(env_setup.PORT, () => {
-	clearTerminal();
+server.listen(app.env.SERVER_PORT, () => {
+	//clearTerminal();
 	
-	console.log(chalk.yellow(figlet.textSync(env_setup.NAME, { horizontalLayout: "full" })));
-	console.log(chalk.yellow(`${env_setup.NAME.toUpperCase()} SERVER RUNNING IN ${env_setup.ENVIRONMENT.toUpperCase()} ENVIRONMENT`));
+	console.log(chalk.yellow(figlet.textSync(app.env.SERVER_NAME, { horizontalLayout: "full" })));
+	console.log(chalk.yellow(`${app.env.SERVER_NAME.toUpperCase()} SERVER RUNNING IN ${app.env.SERVER_ENV.toUpperCase()} ENVIRONMENT`));
 	
-	console.log(`\t\n\t- Local:\t${ chalk.green(env_setup.BASE+':'+env_setup.PORT) }`);
+	console.log(`\t\n\t- Local:\t${ chalk.green(app.env.SERVER_BASE+':'+app.env.SERVER_PORT) }`);
 
 	showRemoteIP();
 	

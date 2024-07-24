@@ -6,7 +6,7 @@ module.exports = function (app) {
 	// Test Protected Route
 	// @/api/auth/register
 	Controller.protectedEndpoint = async (req, res) => {
-		return res.status(200).json({ message: "Protected" });
+		return res.status(200).json({ user_loggedin: req.user.id });
 	};
 
 	return Controller;

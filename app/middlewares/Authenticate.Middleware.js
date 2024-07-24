@@ -1,7 +1,8 @@
+// middleware/authenticate.js
 const jwt = require("jsonwebtoken");
 
 module.exports = function (app) {
-	const Session = app.models.Session;
+	const { User, Session } = app.models;
 	var Middleware = {
 		name: "Authenticate",
 	};
@@ -17,6 +18,7 @@ module.exports = function (app) {
 
 			jwt.verify(token, process.env.JWT_SECRET, async (err, decoded) => {
 				if (err) {
+					console.error("JWT Verification Error:", err);
 					return res
 						.status(401)
 						.json({
@@ -24,6 +26,8 @@ module.exports = function (app) {
 							err: err.message,
 						});
 				}
+
+				console.log("Decoded JWT:", decoded);
 
 				const session = await Session.findOne({
 					where: {
@@ -38,15 +42,18 @@ module.exports = function (app) {
 
 				if (session.expiresAt < new Date()) {
 					await Session.destroy({
-						where: {
-							token: token,
-							userId: decoded.userId,
-						},
+						where: { token: token, userId: decoded.userId },
 					});
 					return res.status(401).json({ message: "Token expired." });
 				}
 
 				req.userId = decoded.userId;
+
+				console.log("User ID attached to request:", req.userId);
+
+				const user = await User.findOne({ where: { id: decoded.userId } });
+				req.user = user;
+
 				next();
 			});
 		} catch (error) {

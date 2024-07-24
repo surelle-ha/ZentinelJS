@@ -47,6 +47,14 @@ module.exports = function (sequelize) {
 			sequelize,
 			modelName: "User",
 			timestamps: true,
+			defaultScope: {
+				attributes: { exclude: ['password'] }, 
+			},
+			scopes: {
+				withPassword: {
+					attributes: { include: ['password'] },
+				}
+			},
 		}
 	);
 

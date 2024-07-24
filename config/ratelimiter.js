@@ -1,46 +1,47 @@
-const rateLimit = require('express-rate-limit');
+const rateLimit = require("express-rate-limit");
 
-/* Rate Limit Reset in minutes */
-const windowM = 15;
+module.exports = (app) => {
+	/* Rate Limit Reset in minutes */
+	const windowM = 15;
 
-const exemptedEndpoints = [
-    '/webhook/ratelimit/reset'
-];
+	const exemptedEndpoints = ["/webhook/ratelimit/reset"];
 
-const RateLimit = rateLimit({
-    /* Exempt endpoint from Rate Limiter */
-    skip: (req) => exemptedEndpoints.includes(req.url),
+	const config = {
+		/* Exempt endpoint from Rate Limiter */
+		skip: (req) => exemptedEndpoints.includes(req.url),
 
-    /* 15 minutes */
-    windowMs: windowM * 60 * 1000,
+		/* 15 minutes */
+		windowMs: windowM * 60 * 1000,
 
-    /* Request Limit Per IP Per Window */
-    limit: 1000000000,
+		/* Request Limit Per IP Per Window */
+		limit: 1000000000,
 
-    /* draft-6: `RateLimit-*` headers; draft-7: combined `RateLimit` header */
-    standardHeaders: 'draft-7',
+		/* draft-6: `RateLimit-*` headers; draft-7: combined `RateLimit` header */
+		standardHeaders: "draft-7",
 
-    /* Disable the `X-RateLimit-*` headers */
-    legacyHeaders: false,
+		/* Disable the `X-RateLimit-*` headers */
+		legacyHeaders: false,
 
-    /* 429 status = Too Many Requests (RFC 6585) */
-    statusCode: 429, 
-    
-    /* Send custom rate limit header with limit and remaining */
-    headers: true, 
+		/* 429 status = Too Many Requests (RFC 6585) */
+		statusCode: 429,
 
-    /* Do not count failed requests (status >= 400) */
-    skipFailedRequests: false, 
+		/* Send custom rate limit header with limit and remaining */
+		headers: true,
 
-    /* Do not count successful requests (status < 400) */
-    skipSuccessfulRequests: false,
+		/* Do not count failed requests (status >= 400) */
+		skipFailedRequests: false,
 
-    message: {
-        status: 429, 
-        message: 'Too many requests, please try again later.'
-    },
+		/* Do not count successful requests (status < 400) */
+		skipSuccessfulRequests: false,
 
-    onLimitReached: function (/*req, res, optionsUsed*/) { }
-})
+		message: {
+			status: 429,
+			message: "Too many requests, please try again later.",
+		},
+	};
 
-module.exports = { RateLimit };
+	const ratelimit_supercharged = rateLimit(config);
+    app.resetKey = ratelimit_supercharged.resetKey;
+    app.getKey = ratelimit_supercharged.getKey;
+	app.use(ratelimit_supercharged);
+};
