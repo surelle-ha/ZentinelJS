@@ -22,7 +22,7 @@ if (true) require("@config/ratelimiter")(app);
 if (true) require("@config/helmet")(app);
 if (true) require("@config/cors")(app);
 if (true) require("@config/logger")(app);
-if (false) require("@config/cache")(app);
+if (true) require("@config/cache")(app);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

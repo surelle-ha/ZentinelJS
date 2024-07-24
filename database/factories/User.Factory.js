@@ -1,11 +1,13 @@
 "use strict";
 const { faker } = require('@faker-js/faker');
 const bcrypt = require('bcryptjs');
+const { v4: uuidv4 } = require('uuid');
 
 module.exports = {
     generateUser: async () => {
         const password = await bcrypt.hash('password', 10);
         return {
+            id: uuidv4(),
             first_name: faker.person.firstName(),
             middle_name: faker.person.middleName(),
             last_name: faker.person.lastName(),

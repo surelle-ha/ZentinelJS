@@ -1,4 +1,5 @@
 "use strict";
+const { v4: uuidv4 } = require('uuid');
 const { generateUser } = require('../factories/User.Factory'); 
 
 module.exports = {
@@ -6,6 +7,7 @@ module.exports = {
         const users = [];
 
 		users.push({ 
+			id: uuidv4(),
 			first_name: "Admin", 
 			middle_name: "Admin", 
 			last_name: "Admin", 

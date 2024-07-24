@@ -1,10 +1,17 @@
-const { Model, DataTypes } = require("sequelize");
+const uuid = require("uuid");
+const { Model, DataTypes, UUIDV4 } = require("sequelize");
 
 module.exports = function (sequelize) {
 	class User extends Model {}
 
 	User.init(
 		{
+			id: {
+				type: DataTypes.UUID,
+				primaryKey: true,
+				allowNull: false,
+				defaultValue: DataTypes.UUIDV4,
+			},
 			first_name: {
 				type: DataTypes.STRING,
 				allowNull: false,
@@ -48,12 +55,12 @@ module.exports = function (sequelize) {
 			modelName: "User",
 			timestamps: true,
 			defaultScope: {
-				attributes: { exclude: ['password'] }, 
+				attributes: { exclude: ["password"] },
 			},
 			scopes: {
 				withPassword: {
-					attributes: { include: ['password'] },
-				}
+					attributes: { include: ["password"] },
+				},
 			},
 		}
 	);

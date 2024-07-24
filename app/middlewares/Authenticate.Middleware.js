@@ -27,8 +27,6 @@ module.exports = function (app) {
 						});
 				}
 
-				console.log("Decoded JWT:", decoded);
-
 				const session = await Session.findOne({
 					where: {
 						token: token,
@@ -48,8 +46,6 @@ module.exports = function (app) {
 				}
 
 				req.userId = decoded.userId;
-
-				console.log("User ID attached to request:", req.userId);
 
 				const user = await User.findOne({ where: { id: decoded.userId } });
 				req.user = user;
