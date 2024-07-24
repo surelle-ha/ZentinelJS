@@ -6,7 +6,7 @@ module.exports = function (sequelize) {
 	Session.init(
 		{
 			userId: {
-				type: DataTypes.INTEGER,
+				type: DataTypes.UUID,
 				allowNull: false,
 				references: {
 					model: "Users",

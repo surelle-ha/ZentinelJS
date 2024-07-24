@@ -11,7 +11,7 @@ module.exports = {
 				type: Sequelize.INTEGER,
 			},
 			userId: {
-				type: Sequelize.INTEGER,
+				type: Sequelize.UUID,
 				allowNull: false,
 				references: {
 					model: "Users", // Assumes your User table is named 'Users'
