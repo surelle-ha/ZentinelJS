@@ -1,5 +1,12 @@
+/*
+	This file compile all components 
+	and bind it to the app object.
+	Only edit this if you know 
+	what you're doing.
+*/
 const fs = require("fs");
 const path = require("path");
+const { validationResult } = require("express-validator");
 
 function loadControllers(app) {
 	app.controllers = {};
@@ -18,12 +25,12 @@ function loadMiddlewares(app) {
 	fs.readdirSync(middlewaresPath).forEach(function (f) {
 		if (f !== "__i.js" && path.extname(f) === ".js") {
 			const middleware = require(path.join(middlewaresPath, f))(app);
-			app.middlewares[middleware.name] = middleware;
+			app.middlewares[middleware.name] = middleware;		
 		}
 	});
 }
 
-function loadModels(app, sequelize) {
+function loadModels(app) {
 	app.models = app.models || {};
 	const modelsPath = path.join(__dirname, "models");
 	let modelFiles = [];
@@ -37,7 +44,7 @@ function loadModels(app, sequelize) {
 
 	modelFiles.forEach(function (fullPath) {
 		if (fullPath.endsWith(".Sequelize.js")) {
-			const model = require(fullPath)(sequelize);
+			const model = require(fullPath)(app.sequelize);
 			app.models[model.name] = model;
 		} else if (fullPath.endsWith(".Mongo.js")) {
 			const model = require(fullPath)(app);
@@ -96,10 +103,22 @@ function loadUtilities(app) {
 	});
 }
 
-module.exports = function (app, sequelize) {
+function loadValidations(app) {
+	app.validations = {};
+	const validationsPath = path.join(__dirname, "validations");
+	fs.readdirSync(validationsPath).forEach(function (f) {
+		if (f !== "__i.js" && path.extname(f) === ".js") {
+			const validation = require(path.join(validationsPath, f))(app);
+			app.validations[validation.name] = validation;
+		}
+	});
+}
+
+module.exports = function (app) {
 	loadUtilities(app);
 	loadServices(app);
-	loadModels(app, sequelize);
+	loadValidations(app);
+	loadModels(app);
 	loadMiddlewares(app);
 	loadControllers(app);
 	loadRoutes(app);

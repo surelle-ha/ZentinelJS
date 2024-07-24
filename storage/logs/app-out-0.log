@@ -1,0 +1,1978 @@
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+	- Network:	http://172.27.112.1:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+[SQL] MySQL Connected
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+[2024-07-23 19:31:15.782 +0800] [32mINFO[39m: [36mrequest completed[39m
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:8800",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "sec-gpc": "1",
+        "accept-language": "en-GB,en",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 43781
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "ratelimit-policy": "1000000000;w=900",
+        "ratelimit": "limit=1000000000, remaining=999999999, reset=900",
+        "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=15552000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "vary": "Origin",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2694",
+        "etag": "W/\"a86-GEJuwTi04HR4u4kcCp23uGbvBUQ\""
+      }
+    }
+    responseTime: 11
+[2024-07-23 19:31:15.857 +0800] [32mINFO[39m: [36mrequest completed[39m
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/css/style.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:8800",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-gpc": "1",
+        "accept-language": "en-GB,en",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 43781
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "ratelimit-policy": "1000000000;w=900",
+        "ratelimit": "limit=1000000000, remaining=999999998, reset=900",
+        "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=15552000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "vary": "Origin",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Fri, 19 Jul 2024 13:45:46 GMT",
+        "etag": "W/\"6cd-190cb3dd8fa\"",
+        "content-type": "text/css; charset=UTF-8",
+        "content-length": 1741
+      }
+    }
+    responseTime: 5
+[2024-07-23 19:31:16.152 +0800] [32mINFO[39m: [36mrequest completed[39m
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/favicon.ico",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:8800",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Brave\";v=\"126\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-gpc": "1",
+        "accept-language": "en-GB,en",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "accept-encoding": "gzip, deflate, br, zstd"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 43781
+    }
+    res: {
+      "statusCode": 404,
+      "headers": {
+        "ratelimit-policy": "1000000000;w=900",
+        "ratelimit": "limit=1000000000, remaining=999999997, reset=900",
+        "content-security-policy": "default-src 'none'",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=15552000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "vary": "Origin",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": 150
+      }
+    }
+    responseTime: 1
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]

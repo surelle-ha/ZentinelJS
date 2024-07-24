@@ -7,7 +7,7 @@ module.exports = function (app) {
 
 	Middleware.authorize = (requiredPermission) => async (req, res, next) => {
 		try {
-			if (!req.userId) {
+			if (!req.user.id) {
 				return res
 					.status(403)
 					.send({

@@ -5,20 +5,21 @@
 	"main": "server.js",
 	"scripts": {
 		"test": "jest --watch",
-		"dev": "set SERVER_ENV=development&& nodemon server.js",
-		"prod": "set SERVER_ENV=production&& nodemon server.js",
-		"db:up": "echo creating && npm run db:create && echo created && npm run db:migrate && echo migrated",
+		"start:dev": "set SERVER_ENV=development&& nodemon server.js",
+		"start:prod": "set SERVER_ENV=production&& nodemon server.js",
+		"pm2": "pm2 monit",
+		"pm2:dev": "pm2 start pm2.config.js",
+		"pm2:prod": "pm2 start pm2.config.js --env production",
+		"pm2:restart": "pm2 restart pm2.config.js",
+		"pm2:stop": "pm2 stop pm2.config.js",
+		"pm2:delete": "pm2 delete pm2.config.js",
+		"db:up": "npm run db:create && npm run db:migrate",
 		"db:reset": "npm run db:drop && npm run db:up && npx sequelize db:seed:all",
 		"db:create": "npx sequelize db:create",
 		"db:drop": "[[ $NODE_ENV == production ]] && exit 1 || npx sequelize db:drop",
 		"db:migrate": "npx sequelize db:migrate",
 		"db:rollback": "npx sequelize db:migrate:undo",
-		"db:rollback:all": "npx sequelize db:migrate:undo:all",
-		"pm2": "pm2 monit",
-		"pm2:dev": "pm2 start pm2.config.js",
-		"pm2:prod": "pm2 start pm2.config.js --env production",
-		"pm2:restart": "pm2 restart pm2.config.js",
-		"pm2:delete": "pm2 delete pm2.config.js"
+		"db:rollback:all": "npx sequelize db:migrate:undo:all"
 	},
 	"jest": {
 		"testEnvironment": "node"
@@ -27,13 +28,11 @@
 	"license": "ISC",
 	"dependencies": {
 		"@faker-js/faker": "^8.4.1",
-		"@metaplex-foundation/mpl-token-metadata": "^3.2.1",
-		"@solana/spl-token": "^0.4.6",
-		"@solana/web3.js": "^1.91.8",
+		"@sequelize/postgres": "^7.0.0-alpha.41",
 		"async": "^3.2.5",
 		"axios": "^1.6.8",
 		"bcrypt": "^5.1.1",
-		"bs58": "^5.0.0",
+		"bcryptjs": "^2.4.3",
 		"chalk": "^4.1.2",
 		"cls-rtracer": "^2.6.3",
 		"cors": "^2.8.5",
@@ -42,16 +41,17 @@
 		"express-pino-logger": "^7.0.0",
 		"express-rate-limit": "^7.3.0",
 		"express-response-hooks": "^1.0.4",
+		"express-validation": "^4.1.1",
 		"express-validator": "^7.1.0",
 		"figlet": "^1.7.0",
 		"helmet": "^7.1.0",
 		"jest-mock": "^29.7.0",
 		"jsonwebtoken": "^9.0.2",
-		"ky": "^1.2.4",
 		"mariadb": "^3.3.0",
 		"module-alias": "^2.2.3",
 		"mongoose": "^8.3.4",
 		"mysql2": "^3.9.7",
+		"node-cache": "^5.1.2",
 		"node-cron": "^3.0.3",
 		"node-mocks-http": "^1.14.1",
 		"nodemon": "^3.1.0",
@@ -62,14 +62,12 @@
 		"serve-index": "^1.9.1",
 		"socket.io": "^4.7.5",
 		"sriracha": "^1.0.0",
+		"uuid": "^10.0.0",
 		"ws": "^8.17.0"
 	},
 	"devDependencies": {
 		"babel-plugin-module-resolver": "^5.0.2",
-		"chai": "^5.1.1",
-		"chai-http": "^4.4.0",
 		"jest": "^29.7.0",
-		"mocha": "^10.4.0",
 		"sequelize-cli": "^6.6.2",
 		"supertest": "^7.0.0"
 	},
@@ -77,6 +75,8 @@
 		"@": ".",
 		"@root": ".",
 		"@app": "./app",
-		"@config": "./config"
+		"@config": "./config",
+		"@public": "./public",
+		"@storage": "./storage"
 	}
 }

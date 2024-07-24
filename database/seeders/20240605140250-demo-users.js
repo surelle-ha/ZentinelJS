@@ -1,0 +1,31 @@
+"use strict";
+const { generateUser } = require('../factories/User.Factory'); 
+
+module.exports = {
+    up: async (queryInterface, Sequelize) => {
+        const users = [];
+
+		users.push({ 
+			first_name: "Admin", 
+			middle_name: "Admin", 
+			last_name: "Admin", 
+			email: "admin@admin.com",
+			password: "$2b$10$lzCh/hqYzxCIEesl07A67OYntwKJdT/qsdc9pZipKDVRqm5iPIJF.",
+			role_id: 1,
+			email_verified: true,
+			status: "Active",
+			createdAt: new Date(), 
+			updatedAt: new Date() 
+		});
+
+        for (let i = 0; i < 10; i++) { 
+            users.push(await generateUser());
+        }
+
+        await queryInterface.bulkInsert('Users', users, {});
+    },
+
+    down: async (queryInterface, Sequelize) => {
+        await queryInterface.bulkDelete('Users', null, {});
+    },
+};

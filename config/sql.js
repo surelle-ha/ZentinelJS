@@ -1,25 +1,21 @@
 const { Sequelize } = require("sequelize");
-const ENV = require("./environments");
 
-const sequelize = new Sequelize(
-	ENV.DATABASE_NAME,
-	ENV.DATABASE_USER,
-	ENV.DATABASE_PASS,
-	{
-		host: ENV.DATABASE_HOST,
-		port: ENV.DATABASE_PORT,
-		dialect: ENV.DATABASE_TYPE,
-		logging: false,
-	}
-);
-
-const connectDB = async () => {
+module.exports = async (app) => {
+	app.sequelize = new Sequelize(
+		app.env.DATABASE_NAME,
+		app.env.DATABASE_USER,
+		app.env.DATABASE_PASS,
+		{
+			host: app.env.DATABASE_HOST,
+			port: app.env.DATABASE_PORT,
+			dialect: app.env.DATABASE_TYPE,
+			logging: false,
+		}
+	);
 	try {
-		await sequelize.authenticate();
+		await app.sequelize.authenticate();
 		console.log(`[SQL] MySQL Connected`);
 	} catch (error) {
 		console.error(`[SQL] MySQL Connection Error`, error);
 	}
 };
-
-module.exports = { connectDB, sequelize };

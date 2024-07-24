@@ -5,10 +5,10 @@ module.exports = function (app) {
 
 	// Reset Rate Limit
 	// @/webhook/ratelimit/reset
-	Controller.ratelimit_reset = async (req, res) => {
-		app.config.RateLimit.resetKey(req.ip);
-		res.json({ message: "Rate limit is reset!" });
+	Controller.RatelimitReset = async (req, res) => {
+		app.resetKey(req.ip);
+		res.json({ status: "success", message: "Rate limit is reset!", request_by: req.user.id });
 	};
-
+	
 	return Controller;
 };
