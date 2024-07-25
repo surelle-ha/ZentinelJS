@@ -12,9 +12,8 @@ module.exports = (app) => {
         const key = (`${requestUrl}:${requestIp}:${userAgent}:${deviceNumber}:${userLogged}`);
         const cachedResponse = myCache.get(key);
 		
-		console.log(key)
-
         if (cachedResponse) {
+            res.setHeader('Content-Type', 'application/json');
             res.send(cachedResponse);
         } else {
             const originalSend = res.send.bind(res);

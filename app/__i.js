@@ -46,9 +46,9 @@ function loadModels(app) {
 		if (fullPath.endsWith(".Sequelize.js")) {
 			const model = require(fullPath)(app.sequelize);
 			app.models[model.name] = model;
-		} else if (fullPath.endsWith(".Mongo.js")) {
-			const model = require(fullPath)(app);
-			app.models[model.modelName] = model;
+		} else if (fullPath.endsWith(".Model.js")) {
+			const model = require(fullPath)(app.sequelize);
+			app.models[model.name] = model;
 		}
 	});
 
