@@ -1976,3 +1976,83 @@ Model: Role, Associations:  [ 'Permissions' ]
 Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
 Model: Session, Associations:  []
 Model: User, Associations:  [ 'Role' ]
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+  _____                 _     _                  _       _   ____  
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |     | | / ___| 
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |  _  | | \___ \ 
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | | | |_| |  ___) |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|  \___/  |____/ 
+                                                                   
+ZENTINELJS SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.1.26:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+  _____                 _     _                  _       _   ____  
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |     | | / ___| 
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |  _  | | \___ \ 
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | | | |_| |  ___) |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|  \___/  |____/ 
+                                                                   
+ZENTINELJS SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.1.26:8800
+
+Routes: 
+~ POST /api/v1/auth/login
+~ POST /api/v1/auth/register
+~ POST /api/v1/auth/logout
+~ GET /api/v1/guarded/test
+~ GET /
+~ POST /api/v1/roles
+~ GET /api/v1/roles
+~ GET /api/v1/roles/:role_id
+~ PATCH /api/v1/roles/:role_id
+~ DELETE /api/v1/roles
+~ DELETE /api/v1/roles/:role_id
+~ POST /api/v1/role/permissions
+~ GET /api/v1/role/permissions/:role_id
+~ DELETE /api/v1/role/permissions
+~ POST /api/v1/users
+~ GET /api/v1/users
+~ GET /api/v1/users/:user_id
+~ PATCH /api/v1/users/:user_id
+~ DELETE /api/v1/users
+~ DELETE /api/v1/users/:user_id
+~ POST /webhook/ratelimit/reset
+
+Server Logs:

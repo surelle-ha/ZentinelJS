@@ -6,9 +6,8 @@
 */
 const fs = require("fs");
 const path = require("path");
-const { validationResult } = require("express-validator");
 
-function loadControllers(app) {
+const bootControllers = (app) => {
 	app.controllers = {};
 	const controllersPath = path.join(__dirname, "controllers");
 	fs.readdirSync(controllersPath).forEach(function (f) {
@@ -19,7 +18,7 @@ function loadControllers(app) {
 	});
 }
 
-function loadMiddlewares(app) {
+const bootMiddlewares = (app) => {
 	app.middlewares = {};
 	const middlewaresPath = path.join(__dirname, "middlewares");
 	fs.readdirSync(middlewaresPath).forEach(function (f) {
@@ -30,7 +29,7 @@ function loadMiddlewares(app) {
 	});
 }
 
-function loadModels(app) {
+const bootModels = (app) => {
 	app.models = app.models || {};
 	const modelsPath = path.join(__dirname, "models");
 	let modelFiles = [];
@@ -66,22 +65,22 @@ function loadModels(app) {
 	});
 }
 
-function loadRoutes(app) {
-	const loadRoutesRecursively = (app, dir) => {
+const bootRoutes = (app) => {
+	const bootRoutesRecursively = (app, dir) => {
 		fs.readdirSync(dir).forEach(function (file) {
 			const fullPath = path.join(dir, file);
 			if (fs.statSync(fullPath).isDirectory()) {
-				loadRoutesRecursively(app, fullPath);
+				bootRoutesRecursively(app, fullPath);
 			} else if (file !== "__i.js" && path.extname(file) === ".js") {
 				require(fullPath)(app);
 			}
 		});
 	};
 
-	loadRoutesRecursively(app, path.join(__dirname, "routes"));
+	bootRoutesRecursively(app, path.join(__dirname, "routes"));
 }
 
-function loadServices(app) {
+const bootServices = (app) => {
 	app.services = {};
 	const servicesPath = path.join(__dirname, "services");
 	fs.readdirSync(servicesPath).forEach(function (f) {
@@ -92,7 +91,7 @@ function loadServices(app) {
 	});
 }
 
-function loadUtilities(app) {
+const bootUtilities = (app) => {
 	app.utilities = {};
 	const utilitiesPath = path.join(__dirname, "utilities");
 	fs.readdirSync(utilitiesPath).forEach(function (f) {
@@ -103,7 +102,7 @@ function loadUtilities(app) {
 	});
 }
 
-function loadValidations(app) {
+const bootValidations = (app) => {
 	app.validations = {};
 	const validationsPath = path.join(__dirname, "validations");
 	fs.readdirSync(validationsPath).forEach(function (f) {
@@ -114,12 +113,14 @@ function loadValidations(app) {
 	});
 }
 
-module.exports = function (app) {
-	loadUtilities(app);
-	loadServices(app);
-	loadValidations(app);
-	loadModels(app);
-	loadMiddlewares(app);
-	loadControllers(app);
-	loadRoutes(app);
-};
+const bootstrap = (app) => {
+	bootUtilities(app);
+	bootServices(app);
+	bootValidations(app);
+	bootModels(app);
+	bootMiddlewares(app);
+	bootControllers(app);
+	bootRoutes(app);
+}
+
+module.exports = bootstrap;

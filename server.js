@@ -33,7 +33,6 @@ server.listen(app.env.SERVER_PORT, () => {
 	
 	console.log(chalk.yellow(figlet.textSync(app.env.SERVER_NAME, { horizontalLayout: "full" })));
 	console.log(chalk.yellow(`${app.env.SERVER_NAME.toUpperCase()} SERVER RUNNING IN ${app.env.SERVER_ENV.toUpperCase()} ENVIRONMENT`));
-	
 	console.log(`\t\n\t- Local:\t${ chalk.green(app.env.SERVER_BASE+':'+app.env.SERVER_PORT) }`);
 
 	showRemoteIP();
@@ -43,7 +42,7 @@ server.listen(app.env.SERVER_PORT, () => {
 		if (r.route && r.route.path) {
 			console.log(
 				"~", 
-				(
+				chalk.underline(
 					r.route.stack[0].method.toUpperCase() == "POST" ? chalk.yellow(r.route.stack[0].method.toUpperCase()) :
 					r.route.stack[0].method.toUpperCase() == "GET" ? chalk.green(r.route.stack[0].method.toUpperCase()) :
 					r.route.stack[0].method.toUpperCase() == "PATCH" ? chalk.magenta(r.route.stack[0].method.toUpperCase()) :
