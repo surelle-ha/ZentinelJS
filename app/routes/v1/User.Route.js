@@ -1,6 +1,6 @@
 module.exports = function (app) {
 	const { Authenticate, SequelizeGuard } = app.middlewares;
-	var UserController = app.controllers.User;
+	const UserController = app.controllers.User;
 
 	app.use("/api/v1/users", [Authenticate.authenticate]);
 

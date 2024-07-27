@@ -2056,3 +2056,988 @@ Routes:
 ~ POST /webhook/ratelimit/reset
 
 Server Logs:
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 14:59:16.188 +0800] [32mINFO[39m: [36m(INFO - 1612) [System] App has started.[39m
+[2024-07-27 14:59:16.234 +0800] [32mINFO[39m: [36m(INFO - 1612) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:29.007 +0800] [32mINFO[39m: [36m(INFO - 13448) [System] App has started.[39m
+[2024-07-27 15:03:29.040 +0800] [32mINFO[39m: [36m(INFO - 13448) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:40.174 +0800] [32mINFO[39m: [36m(INFO - 15596) [System] App has started.[39m
+[2024-07-27 15:03:40.207 +0800] [32mINFO[39m: [36m(INFO - 15596) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:41.344 +0800] [32mINFO[39m: [36m(INFO - 1288) [System] App has started.[39m
+[2024-07-27 15:03:41.376 +0800] [32mINFO[39m: [36m(INFO - 1288) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:42.593 +0800] [32mINFO[39m: [36m(INFO - 24496) [System] App has started.[39m
+[2024-07-27 15:03:42.626 +0800] [32mINFO[39m: [36m(INFO - 24496) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:43.791 +0800] [32mINFO[39m: [36m(INFO - 20052) [System] App has started.[39m
+[2024-07-27 15:03:43.826 +0800] [32mINFO[39m: [36m(INFO - 20052) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:45.092 +0800] [32mINFO[39m: [36m(INFO - 3368) [System] App has started.[39m
+[2024-07-27 15:03:45.123 +0800] [32mINFO[39m: [36m(INFO - 3368) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:46.339 +0800] [32mINFO[39m: [36m(INFO - 24196) [System] App has started.[39m
+[2024-07-27 15:03:46.372 +0800] [32mINFO[39m: [36m(INFO - 24196) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:47.572 +0800] [32mINFO[39m: [36m(INFO - 20972) [System] App has started.[39m
+[2024-07-27 15:03:47.603 +0800] [32mINFO[39m: [36m(INFO - 20972) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:48.885 +0800] [32mINFO[39m: [36m(INFO - 6808) [System] App has started.[39m
+[2024-07-27 15:03:48.921 +0800] [32mINFO[39m: [36m(INFO - 6808) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:50.104 +0800] [32mINFO[39m: [36m(INFO - 25352) [System] App has started.[39m
+[2024-07-27 15:03:50.139 +0800] [32mINFO[39m: [36m(INFO - 25352) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:51.430 +0800] [32mINFO[39m: [36m(INFO - 5348) [System] App has started.[39m
+[2024-07-27 15:03:51.462 +0800] [32mINFO[39m: [36m(INFO - 5348) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:52.568 +0800] [32mINFO[39m: [36m(INFO - 24496) [System] App has started.[39m
+[2024-07-27 15:03:52.602 +0800] [32mINFO[39m: [36m(INFO - 24496) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:53.862 +0800] [32mINFO[39m: [36m(INFO - 21492) [System] App has started.[39m
+[2024-07-27 15:03:53.896 +0800] [32mINFO[39m: [36m(INFO - 21492) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:55.153 +0800] [32mINFO[39m: [36m(INFO - 17152) [System] App has started.[39m
+[2024-07-27 15:03:55.193 +0800] [32mINFO[39m: [36m(INFO - 17152) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:56.444 +0800] [32mINFO[39m: [36m(INFO - 2120) [System] App has started.[39m
+[2024-07-27 15:03:56.476 +0800] [32mINFO[39m: [36m(INFO - 2120) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:57.751 +0800] [32mINFO[39m: [36m(INFO - 6928) [System] App has started.[39m
+[2024-07-27 15:03:57.786 +0800] [32mINFO[39m: [36m(INFO - 6928) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:03:58.982 +0800] [32mINFO[39m: [36m(INFO - 14692) [System] App has started.[39m
+[2024-07-27 15:03:59.019 +0800] [32mINFO[39m: [36m(INFO - 14692) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:00.241 +0800] [32mINFO[39m: [36m(INFO - 5724) [System] App has started.[39m
+[2024-07-27 15:04:00.276 +0800] [32mINFO[39m: [36m(INFO - 5724) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:01.523 +0800] [32mINFO[39m: [36m(INFO - 11636) [System] App has started.[39m
+[2024-07-27 15:04:01.558 +0800] [32mINFO[39m: [36m(INFO - 11636) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:02.770 +0800] [32mINFO[39m: [36m(INFO - 15268) [System] App has started.[39m
+[2024-07-27 15:04:02.810 +0800] [32mINFO[39m: [36m(INFO - 15268) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:04.046 +0800] [32mINFO[39m: [36m(INFO - 21424) [System] App has started.[39m
+[2024-07-27 15:04:04.082 +0800] [32mINFO[39m: [36m(INFO - 21424) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:05.263 +0800] [32mINFO[39m: [36m(INFO - 10132) [System] App has started.[39m
+[2024-07-27 15:04:05.297 +0800] [32mINFO[39m: [36m(INFO - 10132) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:06.613 +0800] [32mINFO[39m: [36m(INFO - 12700) [System] App has started.[39m
+[2024-07-27 15:04:06.649 +0800] [32mINFO[39m: [36m(INFO - 12700) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:07.812 +0800] [32mINFO[39m: [36m(INFO - 2440) [System] App has started.[39m
+[2024-07-27 15:04:07.846 +0800] [32mINFO[39m: [36m(INFO - 2440) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:09.229 +0800] [32mINFO[39m: [36m(INFO - 3184) [System] App has started.[39m
+[2024-07-27 15:04:09.266 +0800] [32mINFO[39m: [36m(INFO - 3184) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:10.613 +0800] [32mINFO[39m: [36m(INFO - 14424) [System] App has started.[39m
+[2024-07-27 15:04:10.650 +0800] [32mINFO[39m: [36m(INFO - 14424) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:11.831 +0800] [32mINFO[39m: [36m(INFO - 16752) [System] App has started.[39m
+[2024-07-27 15:04:11.889 +0800] [32mINFO[39m: [36m(INFO - 16752) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:13.149 +0800] [32mINFO[39m: [36m(INFO - 15336) [System] App has started.[39m
+[2024-07-27 15:04:13.192 +0800] [32mINFO[39m: [36m(INFO - 15336) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:14.473 +0800] [32mINFO[39m: [36m(INFO - 14276) [System] App has started.[39m
+[2024-07-27 15:04:14.513 +0800] [32mINFO[39m: [36m(INFO - 14276) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:15.776 +0800] [32mINFO[39m: [36m(INFO - 6676) [System] App has started.[39m
+[2024-07-27 15:04:15.820 +0800] [32mINFO[39m: [36m(INFO - 6676) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:17.023 +0800] [32mINFO[39m: [36m(INFO - 11748) [System] App has started.[39m
+[2024-07-27 15:04:17.086 +0800] [32mINFO[39m: [36m(INFO - 11748) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:18.175 +0800] [32mINFO[39m: [36m(INFO - 14748) [System] App has started.[39m
+[2024-07-27 15:04:18.214 +0800] [32mINFO[39m: [36m(INFO - 14748) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:19.604 +0800] [32mINFO[39m: [36m(INFO - 6968) [System] App has started.[39m
+[2024-07-27 15:04:19.639 +0800] [32mINFO[39m: [36m(INFO - 6968) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:20.806 +0800] [32mINFO[39m: [36m(INFO - 24484) [System] App has started.[39m
+[2024-07-27 15:04:20.842 +0800] [32mINFO[39m: [36m(INFO - 24484) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:22.033 +0800] [32mINFO[39m: [36m(INFO - 16988) [System] App has started.[39m
+[2024-07-27 15:04:22.072 +0800] [32mINFO[39m: [36m(INFO - 16988) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:23.304 +0800] [32mINFO[39m: [36m(INFO - 16684) [System] App has started.[39m
+[2024-07-27 15:04:23.342 +0800] [32mINFO[39m: [36m(INFO - 16684) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:24.540 +0800] [32mINFO[39m: [36m(INFO - 23840) [System] App has started.[39m
+[2024-07-27 15:04:24.575 +0800] [32mINFO[39m: [36m(INFO - 23840) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:25.763 +0800] [32mINFO[39m: [36m(INFO - 17076) [System] App has started.[39m
+[2024-07-27 15:04:25.794 +0800] [32mINFO[39m: [36m(INFO - 17076) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:27.025 +0800] [32mINFO[39m: [36m(INFO - 24652) [System] App has started.[39m
+[2024-07-27 15:04:27.057 +0800] [32mINFO[39m: [36m(INFO - 24652) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:28.366 +0800] [32mINFO[39m: [36m(INFO - 8916) [System] App has started.[39m
+[2024-07-27 15:04:28.398 +0800] [32mINFO[39m: [36m(INFO - 8916) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:29.518 +0800] [32mINFO[39m: [36m(INFO - 21424) [System] App has started.[39m
+[2024-07-27 15:04:29.550 +0800] [32mINFO[39m: [36m(INFO - 21424) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:30.806 +0800] [32mINFO[39m: [36m(INFO - 8968) [System] App has started.[39m
+[2024-07-27 15:04:30.838 +0800] [32mINFO[39m: [36m(INFO - 8968) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:32.058 +0800] [32mINFO[39m: [36m(INFO - 22792) [System] App has started.[39m
+[2024-07-27 15:04:32.092 +0800] [32mINFO[39m: [36m(INFO - 22792) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:33.303 +0800] [32mINFO[39m: [36m(INFO - 13756) [System] App has started.[39m
+[2024-07-27 15:04:33.338 +0800] [32mINFO[39m: [36m(INFO - 13756) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:34.525 +0800] [32mINFO[39m: [36m(INFO - 932) [System] App has started.[39m
+[2024-07-27 15:04:34.573 +0800] [32mINFO[39m: [36m(INFO - 932) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:35.784 +0800] [32mINFO[39m: [36m(INFO - 8704) [System] App has started.[39m
+[2024-07-27 15:04:35.815 +0800] [32mINFO[39m: [36m(INFO - 8704) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:37.084 +0800] [32mINFO[39m: [36m(INFO - 15720) [System] App has started.[39m
+[2024-07-27 15:04:37.119 +0800] [32mINFO[39m: [36m(INFO - 15720) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]
+c  _____                 _     _                  _ 
+ |__  /   ___   _ __   | |_  (_)  _ __     ___  | |
+   / /   / _ \ | '_ \  | __| | | | '_ \   / _ \ | |
+  / /_  |  __/ | | | | | |_  | | | | | | |  __/ | |
+ /____|  \___| |_| |_|  \__| |_| |_| |_|  \___| |_|
+                                                   
+ZENTINEL SERVER RUNNING IN DEVELOPMENT ENVIRONMENT
+	
+	- Local:	http://localhost:8800
+	- Network:	http://192.168.100.23:8800
+	- Network:	http://192.168.56.1:8800
+
+Server Logs:
+[2024-07-27 15:04:38.311 +0800] [32mINFO[39m: [36m(INFO - 4244) [System] App has started.[39m
+[2024-07-27 15:04:38.354 +0800] [32mINFO[39m: [36m(INFO - 4244) [SQL] MySQL Connected[39m
+Model: Permission, Associations:  [ 'Roles' ]
+Model: Role, Associations:  [ 'Permissions' ]
+Model: Role_Permission, Associations:  [ 'Role', 'Permission' ]
+Model: Session, Associations:  []
+Model: User, Associations:  [ 'Role' ]

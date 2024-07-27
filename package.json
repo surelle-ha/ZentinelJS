@@ -13,16 +13,14 @@
 		"pm2:restart": "pm2 restart pm2.config.js",
 		"pm2:stop": "pm2 stop pm2.config.js",
 		"pm2:delete": "pm2 delete pm2.config.js",
-		"gem:create:controller": "node config/gem.js controller",
-		"gem:create:model": "node config/gem.js model",
-		"gem:create:route": "node config/gem.js route",
 		"db:up": "npm run db:create && npm run db:migrate",
 		"db:reset": "npm run db:drop && npm run db:up && npx sequelize db:seed:all",
 		"db:create": "npx sequelize db:create",
 		"db:drop": "[[ $NODE_ENV == production ]] && exit 1 || npx sequelize db:drop",
 		"db:migrate": "npx sequelize db:migrate",
 		"db:rollback": "npx sequelize db:migrate:undo",
-		"db:rollback:all": "npx sequelize db:migrate:undo:all"
+		"db:rollback:all": "npx sequelize db:migrate:undo:all",
+		"db:migrate:create" : "npx sequelize-cli migration:generate --name"
 	},
 	"jest": {
 		"testEnvironment": "node"
@@ -45,6 +43,7 @@
 		"ejs": "^3.1.10",
 		"express": "^4.19.2",
 		"express-async-errors": "^3.1.1",
+		"express-async-handler": "^1.2.0",
 		"express-pino-logger": "^7.0.0",
 		"express-rate-limit": "^7.3.0",
 		"express-response-hooks": "^1.0.4",

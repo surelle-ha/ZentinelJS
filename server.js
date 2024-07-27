@@ -1,9 +1,10 @@
-var figlet = require("figlet");
+require("module-alias/register");
+const figlet = require("figlet");
 const http = require('http');
 const os = require("os");
-const app = require("./config/app");
-const { initSocket } = require('./config/socket');
-const chalk = require('./config/console');
+const app = require("@config/app");
+const { initSocket } = require('@config/socket');
+const chalk = require('@config/console');
 const server = http.createServer(app); 
 
 initSocket(server);  
@@ -29,7 +30,7 @@ const showRemoteIP = () => {
 };
 
 server.listen(app.env.SERVER_PORT, () => {
-	//clearTerminal();
+	// clearTerminal();
 	
 	console.log(chalk.yellow(figlet.textSync(app.env.SERVER_NAME, { horizontalLayout: "full" })));
 	console.log(chalk.yellow(`${app.env.SERVER_NAME.toUpperCase()} SERVER RUNNING IN ${app.env.SERVER_ENV.toUpperCase()} ENVIRONMENT`));
@@ -37,22 +38,24 @@ server.listen(app.env.SERVER_PORT, () => {
 
 	showRemoteIP();
 	
-	console.log(`\nRoutes: `);
-	app._router.stack.forEach(function (r) {
-		if (r.route && r.route.path) {
-			console.log(
-				"~", 
-				chalk.underline(
-					r.route.stack[0].method.toUpperCase() == "POST" ? chalk.yellow(r.route.stack[0].method.toUpperCase()) :
-					r.route.stack[0].method.toUpperCase() == "GET" ? chalk.green(r.route.stack[0].method.toUpperCase()) :
-					r.route.stack[0].method.toUpperCase() == "PATCH" ? chalk.magenta(r.route.stack[0].method.toUpperCase()) :
-					r.route.stack[0].method.toUpperCase() == "PUT" ? chalk.blue(r.route.stack[0].method.toUpperCase()) :
-					r.route.stack[0].method.toUpperCase() == "DELETE" ? chalk.red(r.route.stack[0].method.toUpperCase()) :
-					chalk.cyan(r.route.stack[0].method.toUpperCase())
-				), 
-				chalk.underline(r.route.path)
-			);
-		}
-	});
+	// console.log(`\nRoutes: `);
+	// app._router.stack.forEach(function (r) {
+	// 	if (r.route && r.route.path) {
+	// 		console.log(
+	// 			"~", 
+	// 			chalk.underline(
+	// 				r.route.stack[0].method.toUpperCase() == "POST" ? chalk.yellow(r.route.stack[0].method.toUpperCase()) :
+	// 				r.route.stack[0].method.toUpperCase() == "GET" ? chalk.green(r.route.stack[0].method.toUpperCase()) :
+	// 				r.route.stack[0].method.toUpperCase() == "PATCH" ? chalk.magenta(r.route.stack[0].method.toUpperCase()) :
+	// 				r.route.stack[0].method.toUpperCase() == "PUT" ? chalk.blue(r.route.stack[0].method.toUpperCase()) :
+	// 				r.route.stack[0].method.toUpperCase() == "DELETE" ? chalk.red(r.route.stack[0].method.toUpperCase()) :
+	// 				chalk.cyan(r.route.stack[0].method.toUpperCase())
+	// 			), 
+	// 			chalk.underline(r.route.path)
+	// 		);
+	// 	}
+	// });
+
 	console.log(`\nServer Logs:`);
+	app.logger.info(`[System] App has started.`);
 });

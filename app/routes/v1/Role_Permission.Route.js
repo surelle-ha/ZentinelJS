@@ -1,18 +1,19 @@
 module.exports = function (app) {
-	var RolePermissionController = app.controllers.Role_Permission;
+	const { Role_Permission } = app.controllers;
+	const { Authenticate, SequelizeGuard } = app.middlewares;
 	app.post(
 		"/api/v1/role/permissions",
-		[],
-		RolePermissionController.assignPermissionToRole
+		[Authenticate.authenticate],
+		Role_Permission.assignPermissionToRole
 	);
 	app.get(
 		"/api/v1/role/permissions/:role_id",
-		[],
-		RolePermissionController.getPermissionsByRole
+		[Authenticate.authenticate],
+		Role_Permission.getPermissionsByRole
 	);
 	app.delete(
 		"/api/v1/role/permissions",
-		[],
-		RolePermissionController.removePermissionFromRole
+		[Authenticate.authenticate],
+		Role_Permission.removePermissionFromRole
 	);
 };

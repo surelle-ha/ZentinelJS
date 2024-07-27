@@ -13,7 +13,7 @@ module.exports = {
             last_name: faker.person.lastName(),
             email: faker.internet.email(),
             password: password,
-            role_id: faker.number.int({ min: 1, max: 3 }), 
+            role_id: faker.number.int({ min: 1, max: 2 }), 
             email_verified: faker.datatype.boolean(),
             status: faker.helpers.arrayElement(['Active', 'Inactive', 'Pending']),
             createdAt: new Date(),

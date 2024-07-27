@@ -8,7 +8,7 @@ module.exports = {
 				allowNull: false,
 				primaryKey: true,
 				type: Sequelize.UUID,
-				defaultValue: Sequelize.UUID
+				defaultValue: Sequelize.UUID,
 			},
 			first_name: {
 				type: Sequelize.STRING,
@@ -34,6 +34,10 @@ module.exports = {
 			role_id: {
 				type: Sequelize.INTEGER,
 				allowNull: false,
+				references: {
+					model: "Roles",
+					key: "id",
+				},
 			},
 			email_verified: {
 				type: Sequelize.BOOLEAN,

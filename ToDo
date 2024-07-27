@@ -1,11 +1,9 @@
-x npm install compression
+- npm install compression
 - npm install swagger-ui-express
 - npm install multer
-/ npm install express-async-errors
+- npm install express-async-errors
 - npm install express-graphql
 - npm install moment
 - npm install node-cron
-x npm install xss
+- npm install xss
 - npm install prom-client
-
-- Make Role_Permission Pascal

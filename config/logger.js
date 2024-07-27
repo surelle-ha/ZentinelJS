@@ -31,8 +31,8 @@ const logger = pino({
 const logger_supercharged = expressPino({ logger });
 
 module.exports = (app) => {
+    app.logger = logger;
     app.use(logger_supercharged);
-
     app.use((err, req, res, next) => {
         logger.error(err.message);
         res.status(500).send("Something went wrong!");

@@ -1,4 +1,4 @@
-const { useSocket } = require("../../config/socket");
+const { useSocket } = require("@config/socket");
 module.exports = function (app) {
 	var Utility = {
 		name: "Notification",

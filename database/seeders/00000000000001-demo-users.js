@@ -20,7 +20,7 @@ module.exports = {
 			updatedAt: new Date() 
 		});
 
-        for (let i = 0; i < 10; i++) { 
+        for (let i = 0; i < 300; i++) { 
             users.push(await generateUser());
         }
 

@@ -6,17 +6,23 @@
 */
 const fs = require("fs");
 const path = require("path");
+const asyncHandler = require('express-async-handler')
 
 const bootControllers = (app) => {
-	app.controllers = {};
-	const controllersPath = path.join(__dirname, "controllers");
-	fs.readdirSync(controllersPath).forEach(function (f) {
-		if (f !== "__i.js" && path.extname(f) === ".js") {
-			const controller = require(path.join(controllersPath, f))(app);
-			app.controllers[controller.name] = controller;
-		}
-	});
-}
+    app.controllers = {};
+    const controllersPath = path.join(__dirname, "controllers");
+    fs.readdirSync(controllersPath).forEach((file) => {
+        if (file !== "__i.js" && path.extname(file) === ".js") {
+            const controller = require(path.join(controllersPath, file))(app);
+            for (const [methodName, method] of Object.entries(controller)) {
+                if (typeof method === 'function' && method.constructor.name === 'AsyncFunction') {
+                    controller[methodName] = asyncHandler(method);
+                }
+            }
+            app.controllers[controller.name] = controller;
+        }
+    });
+};
 
 const bootMiddlewares = (app) => {
 	app.middlewares = {};
@@ -113,7 +119,19 @@ const bootValidations = (app) => {
 	});
 }
 
+const bootExceptions = (app) => {
+	app.exceptions = {};
+	const exceptionsPath = path.join(__dirname, "exceptions");
+	fs.readdirSync(exceptionsPath).forEach(function (f) {
+		if (f !== "__i.js" && path.extname(f) === ".js") {
+			const exception = require(path.join(exceptionsPath, f))(app);
+			app.exceptions[exception.name] = exception;
+		}
+	});
+}
+
 const bootstrap = (app) => {
+	bootExceptions(app);
 	bootUtilities(app);
 	bootServices(app);
 	bootValidations(app);
