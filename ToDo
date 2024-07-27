@@ -1,9 +1,12 @@
-- npm install compression
-- npm install swagger-ui-express
-- npm install multer
-- npm install express-async-errors
-- npm install express-graphql
-- npm install moment
-- npm install node-cron
-- npm install xss
-- npm install prom-client
+- multer
+- express-graphql
+- request-id
+- express-slow-down
+- express-csrf
+- response-time
+- express-metrics
+- express-sse
+- express-status-monitor
+- express-paginate
+- express-ip-filter
+- express-notify
