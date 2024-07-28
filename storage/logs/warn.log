@@ -31,3 +31,5 @@
 {"level":50,"time":1722070200651,"pid":6972,"hostname":"Surelle","msg":"NotFoundError: User not found\n    at Controller.getUser (C:\\Users\\0110h\\Desktop\\Zentinel Core\\Zentinel Base\\app\\controllers\\User.Controller.js:50:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
 {"level":50,"time":1722070213318,"pid":24936,"hostname":"Surelle"}
 {"level":50,"time":1722070223611,"pid":1932,"hostname":"Surelle","msg":404}
+{"level":50,"time":1722129977777,"pid":11196,"hostname":"Surelle","msg":"The CORS policy for this site does not allow access from the specified Origin."}
+{"level":50,"time":1722131793247,"pid":10028,"hostname":"Surelle","msg":"Access denied to IP address: ::ffff:127.0.0.1"}

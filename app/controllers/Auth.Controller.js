@@ -1,12 +1,10 @@
 // controllers/authController.js
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const { validationResult } = require("express-validator");
 const saltRounds = 10;
 
 module.exports = function (app) {
-	const User = app.models.User;
-	const Session = app.models.Session;
+	const { User, Session } = app.models;
 
 	const Controller = {
 		name: "Auth",

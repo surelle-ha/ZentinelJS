@@ -10,6 +10,10 @@ module.exports = (app) => {
 		/* Exempt endpoint from Rate Limiter */
 		skip: (req) => exemptedEndpoints.includes(req.url),
 
+		delayAfter: 1, // Allow only one request to go at full-speed.
+
+		delayMs: (hits) => hits * hits * 1000,
+
 		/* 15 minutes */
 		windowMs: windowM * 60 * 1000,
 
@@ -43,5 +47,5 @@ module.exports = (app) => {
 	const ratelimit_supercharged = rateLimit(config);
     app.resetKey = ratelimit_supercharged.resetKey;
     app.getKey = ratelimit_supercharged.getKey;
-	app.use(ratelimit_supercharged);
+	app.use("/api", ratelimit_supercharged);
 };

@@ -10,7 +10,8 @@ module.exports = {
 		helmet: true,
 		cors: true,
 		logger: true,
-		cache: false
+		cache: false,
+		prometheus: true
 	},
 	development: {
 		username: process.env.DATABASE_USER,

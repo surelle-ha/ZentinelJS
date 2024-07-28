@@ -3,10 +3,6 @@
 - request-id
 - express-slow-down
 - express-csrf
-- response-time
 - express-metrics
-- express-sse
-- express-status-monitor
 - express-paginate
-- express-ip-filter
-- express-notify
+- express-ipfilter
