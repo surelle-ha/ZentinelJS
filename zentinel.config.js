@@ -5,6 +5,7 @@ module.exports = {
 		alias: {}
 	},
 	config: {
+		monitor: true,
 		database: true,
 		ratelimiter: true,
 		helmet: true,
