@@ -33,3 +33,10 @@
 {"level":50,"time":1722070223611,"pid":1932,"hostname":"Surelle","msg":404}
 {"level":50,"time":1722129977777,"pid":11196,"hostname":"Surelle","msg":"The CORS policy for this site does not allow access from the specified Origin."}
 {"level":50,"time":1722131793247,"pid":10028,"hostname":"Surelle","msg":"Access denied to IP address: ::ffff:127.0.0.1"}
+{"level":50,"time":1722152021250,"pid":14356,"hostname":"Surelle","msg":"maintenanceMode is not defined"}
+{"level":50,"time":1722152022920,"pid":14356,"hostname":"Surelle","msg":"maintenanceMode is not defined"}
+{"level":50,"time":1722152024153,"pid":14356,"hostname":"Surelle","msg":"maintenanceMode is not defined"}
+{"level":50,"time":1722154368537,"pid":16284,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE is not a function"}
+{"level":50,"time":1722154369811,"pid":16284,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE is not a function"}
+{"level":50,"time":1722154477803,"pid":10596,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE.toLowercase is not a function"}
+{"level":50,"time":1722154479121,"pid":10596,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE.toLowercase is not a function"}

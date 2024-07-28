@@ -1,0 +1,66 @@
+#!/usr/bin/env node
+
+const { Command } = require("commander");
+const chalk = require("chalk");
+const fs = require("fs");
+const path = require("path");
+
+class Armory {
+	static program = new Command();
+	static version = "1.0.0";
+
+	static getTimestamp() {
+		const now = new Date();
+		return `${now.toISOString().replace("T", " ").split(".")[0]}`; // Format: YYYY-MM-DD HH:MM:SS
+	}
+
+	static logWithTimestamp(message, color = "white") {
+		const timestamp = Armory.getTimestamp();
+		console.log(chalk[color](`[${timestamp}] ${message}`));
+	}
+
+	static showLoading = async (message, action) => {
+		const ora = (await import("ora")).default;
+		const spinner = ora(message).start();
+		try {
+			await action();
+			spinner.succeed("Completed!");
+		} catch (error) {
+			spinner.fail("Failed!");
+			this.logWithTimestamp(error, "red");
+		}
+	};
+
+	static configFilePath = path.resolve(process.cwd(), "zentinel.config.js");
+	static modelsDir = path.resolve(process.cwd(), "app/models");
+	static controllersDir = path.resolve(process.cwd(), "app/controllers");
+	static routesDir = path.resolve(process.cwd(), "app/routes");
+	static validationsDir = path.resolve(process.cwd(), "app/validations");
+	static middlewaresDir = path.resolve(process.cwd(), "app/middlewares");
+	static servicesDir = path.resolve(process.cwd(), "app/services");
+	static utilitiesDir = path.resolve(process.cwd(), "app/utilities");
+	static exceptionsDir = path.resolve(process.cwd(), "app/exceptions");
+}
+
+Armory.program
+	.version(Armory.version)
+	.description("Armory CLI - A Node.js tool similar to Laravel's Artisan");
+
+// Define commands with shortcuts
+require("./console/hello_world")(Armory);
+require("./console/install")(Armory);
+require("./console/validate")(Armory);
+require("./console/controller")(Armory);
+
+// Handle unknown commands
+Armory.program.arguments("").action((unknownCommand) => {
+	Armory.logWithTimestamp(`Invalid command: ${unknownCommand}`, "red");
+});
+
+// Parse arguments
+Armory.program.parse(process.argv);
+
+// Display help if no command is provided
+if (process.argv.length <= 2) {
+	Armory.program.help();
+}

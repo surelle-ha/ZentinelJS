@@ -8,3 +8,6 @@
 - express-metrics
 - express-paginate
 - express-ipfilter
+- Zentinel CLI
+- app/__i.js to config/bootstrapper.js
+- Integrate documentation

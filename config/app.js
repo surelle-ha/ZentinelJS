@@ -19,15 +19,17 @@ app.set("views", "./public");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public"));
 app.use(compression());
 app.use(responseTime());
+
+app.use("/", express.static("public"));
 app.use(
 	"/storage",
 	express.static("storage"),
 	serveIndex("storage", { icons: true })
 );
 app.use("/orm-builder", express.static("storage/sequelize-ui"));
+app.use("/docs", express.static("storage/docs"));
 
 require("@config/environments")(app);
 if (config.monitor) require("@config/monitor.js")(app);
@@ -38,6 +40,7 @@ if (config.cors) require("@config/cors")(app);
 if (config.logger) require("@config/logger")(app);
 if (config.cache) require("@config/cache")(app);
 if (config.prometheus) require("@config/prometheus")(app);
+require("@config/maintenance")(app)
 require("@app/__i")(app);
 require("@config/exception")(app);
 
