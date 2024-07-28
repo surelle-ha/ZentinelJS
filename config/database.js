@@ -14,7 +14,6 @@ module.exports = async (app) => {
 	);
 	try {
 		await app.sequelize.authenticate();
-		app.logger.info(`[SQL] MySQL Connected`);
 	} catch (error) {
 		app.logger.error(`[SQL] MySQL Connection Error`, error);
 	}

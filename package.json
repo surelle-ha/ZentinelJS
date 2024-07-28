@@ -5,8 +5,8 @@
 	"main": "server.js",
 	"scripts": {
 		"test": "jest --watch",
-		"start:dev": "set SERVER_ENV=development&& nodemon --watch .env server.js",
-		"start:prod": "set SERVER_ENV=production&& nodemon --watch .env server.js",
+		"start:dev": "set SERVER_ENV=development&& nodemon server.js",
+		"start:prod": "set SERVER_ENV=production&& nodemon server.js",
 		"pm2": "pm2 monit",
 		"pm2:dev": "pm2 start pm2.config.js",
 		"pm2:prod": "pm2 start pm2.config.js --env production",
@@ -31,7 +31,7 @@
 		"@faker-js/faker": "^8.4.1",
 		"@sequelize/postgres": "^7.0.0-alpha.41",
 		"async": "^3.2.5",
-		"axios": "^1.6.8",
+		"axios": "^1.7.2",
 		"bcrypt": "^5.1.1",
 		"bcryptjs": "^2.4.3",
 		"bun": "^1.1.20",
@@ -61,6 +61,7 @@
 		"helmet": "^7.1.0",
 		"jest-mock": "^29.7.0",
 		"jsonwebtoken": "^9.0.2",
+		"macaddress": "^0.5.3",
 		"maintenance": "^0.0.2",
 		"mariadb": "^3.3.0",
 		"module-alias": "^2.2.3",
@@ -97,6 +98,9 @@
 		"@app": "./app",
 		"@config": "./config",
 		"@public": "./public",
-		"@storage": "./storage"
+		"@storage": "./storage",
+		"@console": "./console",
+		"@database": "./database",
+		"@test": "./test"
 	}
 }

@@ -41,7 +41,7 @@ if (config.logger) require("@config/logger")(app);
 if (config.cache) require("@config/cache")(app);
 if (config.prometheus) require("@config/prometheus")(app);
 require("@config/maintenance")(app)
-require("@app/__i")(app);
+require("@config/bootstrap")(app);
 require("@config/exception")(app);
 
 module.exports = app;
