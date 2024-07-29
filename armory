@@ -3,6 +3,7 @@ require("module-alias/register");
 const { Command } = require("commander");
 const chalk = require("chalk");
 const path = require("path");
+const fs = require("fs");
 
 class Armory {
 	static program = new Command();
@@ -10,7 +11,7 @@ class Armory {
 
 	static getTimestamp() {
 		const now = new Date();
-		return `${now.toISOString().replace("T", " ").split(".")[0]}`; 
+		return `${now.toISOString().replace("T", " ").split(".")[0]}`;
 	}
 
 	static logWithTimestamp(message, color = "white") {
@@ -45,13 +46,13 @@ Armory.program
 	.version(Armory.version)
 	.description("Armory CLI - A Node.js tool similar to Laravel's Artisan");
 
-// Define commands with shortcuts
-require("@console/armory_basic")(Armory);
-require("@console/armory_ipinfo")(Armory);
-require("@console/armory_install")(Armory);
-require("@console/armory_validate")(Armory);
-require("@console/armory_controller")(Armory);
-require("@console/armory_key")(Armory);
+const consoleDir = path.join(__dirname, "console");
+fs.readdirSync(consoleDir).forEach((file) => {
+	if (path.extname(file) === ".js") {
+		const filePath = path.join(consoleDir, file);
+		require(filePath)(Armory);
+	}
+});
 
 Armory.program.arguments("").action((unknownCommand) => {
 	Armory.logWithTimestamp(`Invalid command: ${unknownCommand}`, "red");

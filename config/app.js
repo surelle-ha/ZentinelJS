@@ -32,6 +32,8 @@ app.use("/orm-builder", express.static("storage/sequelize-ui"));
 app.use("/docs", express.static("storage/docs"));
 
 require("@config/environments")(app);
+if (config.storage) require("@config/storage.js")(app);
+if (config.mailer) require("@config/mailer.js")(app);
 if (config.monitor) require("@config/monitor.js")(app);
 if (config.database) require("@config/database.js")(app);
 if (config.ratelimiter) require("@config/ratelimiter")(app);
@@ -40,7 +42,7 @@ if (config.cors) require("@config/cors")(app);
 if (config.logger) require("@config/logger")(app);
 if (config.cache) require("@config/cache")(app);
 if (config.prometheus) require("@config/prometheus")(app);
-require("@config/maintenance")(app)
+require("@config/maintenance")(app);
 require("@config/bootstrap")(app);
 require("@config/exception")(app);
 

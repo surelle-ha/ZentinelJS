@@ -20,7 +20,7 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, #1a1c22 0%, #3e5286 100%);
+  background: linear-gradient(60deg, #3e5286 0%, #242b3d 100%);
   color:white;
 }
 .logo {
@@ -90,7 +90,7 @@ p {
     transform: translate3d(85px,0,0);
   }
 }
-/*Shrinking for mobile*/
+
 @media (max-width: 768px) {
   .waves {
     height:40px;
@@ -108,15 +108,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
-/* Animation */
 .rotating-svg {
-  animation: rotate 10s linear infinite; /* Adjust duration for speed */
+  animation: rotate 25s linear infinite; 
 }
 
-/* Keyframes for rotation */
 @keyframes rotate {
   from {
       transform: rotate(0deg);

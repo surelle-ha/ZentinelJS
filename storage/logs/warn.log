@@ -40,3 +40,7 @@
 {"level":50,"time":1722154369811,"pid":16284,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE is not a function"}
 {"level":50,"time":1722154477803,"pid":10596,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE.toLowercase is not a function"}
 {"level":50,"time":1722154479121,"pid":10596,"hostname":"Surelle","msg":"app.env.MAINTENANCE_MODE.toLowercase is not a function"}
+{"level":50,"time":1722258316746,"pid":21952,"hostname":"Surelle","msg":"ENOENT: no such file or directory, open 'C:\\Users\\0110h\\Desktop\\Zentinel Core\\Zentinel Base\\uploads\\1722258316744.cpp'"}
+{"level":50,"time":1722258448026,"pid":21756,"hostname":"Surelle","msg":"ENOENT: no such file or directory, open 'C:\\Users\\0110h\\Desktop\\Zentinel Core\\Zentinel Base\\config\\uploads\\1722258448025.cpp'"}
+{"level":50,"time":1722258464719,"pid":21756,"hostname":"Surelle","msg":"ENOENT: no such file or directory, open 'C:\\Users\\0110h\\Desktop\\Zentinel Core\\Zentinel Base\\config\\uploads\\1722258464718.docx'"}
+{"level":50,"time":1722258503288,"pid":15768,"hostname":"Surelle","msg":"ENOENT: no such file or directory, open 'C:\\Users\\0110h\\Desktop\\Zentinel Core\\Zentinel Base\\config\\uploads\\1722258503285.cpp'"}
