@@ -20,7 +20,7 @@ p {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgb(85, 58, 183) 0%, rgb(193, 0, 90) 100%);
+  background: linear-gradient(60deg, #1a1c22 0%, #3e5286 100%);
   color:white;
 }
 .logo {
@@ -101,5 +101,27 @@ p {
   }
   h1 {
     font-size:24px;
+  }
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Animation */
+.rotating-svg {
+  animation: rotate 10s linear infinite; /* Adjust duration for speed */
+}
+
+/* Keyframes for rotation */
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
   }
 }
